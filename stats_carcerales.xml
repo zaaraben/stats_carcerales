@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <application id="stats_carcerales" 
+    title="Les établissements pénitentiaires en France" 
+    mouseposition="false" 
+    logo="apps/stats_carcerales/icon_map.png" help="" measuretools="true" exportpng="true" style="apps/stats_carcerales/css/theme.css" togglealllayersfromtheme="true"/>
+    <mapoptions maxzoom="19" projection="EPSG:3857" center="310640.0829509563, 5907053.545878422" zoom="6" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
+  
+    <baselayers style="gallery">
+        <baselayer  type="OSM" id="positron" label="Positron" title="Carto" thumbgallery="img/basemap/positron.png" 
+            url="http://{a-c}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" maxzoom="20" 
+            visible="true" attribution="Map tiles by  &lt;a href='https://carto.com/attributions' target='_blank'>Carto &lt;/a>, under  &lt;a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>CC BY 3.0 &lt;/a>" />
+    </baselayers>     
+    <proxy url=""/>
+    <olscompletion url="https://api-adresse.data.gouv.fr/search/" type="ban" attribution="La recherche d'adresse est un service proposé par la BAN"/>
+    <searchparameters bbox="false" localities="true" features="false" />   
+    <extensions>
+                <extension type="component" id="filter" path="apps/stats_carcerales/"/>
+    </extensions>
+    <themes>                  
+        <theme name="Population carcérale"  collapsed="false" id="densite" icon="fas fa-arrow-right">
+            <layer id="densite_carcerale" name="Densité carcérale des établissements selon le quartier"  
+                visible="true" 
+                type="customlayer" 
+                url="apps/stats_carcerales/customlayer/densite_carcerale.js"
+				searchable="false" queryable="true" fields="" aliases=""   
+				infoformat="application/vnd.ogc.gml" infopanel="" featurecount="5"		
+                tooltip="true"	
+                tooltipcontent="{{etablissement}} - {{quartier}}"	
+                legendurl="apps/stats_carcerales/lgd.png"
+				attribution="Source: Ministère de la Justice" 
+				metadata=""
+				metadata-csw="" >
+                <template url="apps/stats_carcerales/densite_carcerale.mst"></template>
+		    </layer> 
+        </theme> 
+
+    </themes>
+</config>

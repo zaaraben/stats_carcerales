@@ -1,0 +1,88 @@
+.advancedFilter {
+  background-color: #FFFFFF;
+    display: none;
+    text-align: left;
+    position: fixed !important;
+    top: 240px;
+    left: 60px;
+    max-width: 270px;
+    z-index: 1000 !important;
+    font-family: var(--myfont);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.advancedFilter h2 {
+  font-size: 14.5px;
+    color: #9DE0EF;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.advancedFilter h2 .glyphicon-refresh {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 4px;
+}
+
+.advancedFilter h2 .glyphicon-remove {
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  top: 4px;
+}
+
+.advancedFilter label {
+  margin-right: 2px;
+    margin-left: 2px;
+    padding: 0.4em 0.6em;
+    border-radius: 0.5em;
+}
+
+.advancedFilter legend {
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.advancedFilter .form-check-label {
+  display: inline-block;
+}
+
+.advancedFilter .form-check-label:hover {
+  background-color: #EFEFEF;
+}
+
+.advancedFilter .form-check-label-checked{
+  background-color: #BBBBBB;
+}
+
+.form-check {
+  margin-bottom: 5px;
+}
+
+/* needed to add x button on filter */
+.filter-legend {
+  position: relative;
+}
+
+.filter-legend .glyphicon-trash {
+  position: absolute;
+  cursor: pointer;
+  right: 30px;
+  top: 4px;
+  color: #9DE0EF;
+}
+
+.download-btn{
+  color:white;
+  margin:10px;
+  cursor: pointer;
+}
+.download-section{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

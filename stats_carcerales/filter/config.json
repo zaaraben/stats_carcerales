@@ -1,0 +1,44 @@
+{
+  "js": ["js/filter.js", "js/jquery.easyDrag.min.js"],
+  "css": "css/filter.css",
+  "html": "filter.html",
+  "target": "page-content-wrapper",
+  "options": {
+    "mviewer": {            
+      "stats_carcerales": {
+        "tooltipPosition": "bottom-left",
+        "title": "Filtrer",
+        "legendTitle": "Sélectionner une donnée :",
+        "style": {
+          "colorButton": "#6bc5b4",
+          "selectedBtnColor": "#6bc5b4",
+          "unSelectedBtnColor": "#0a0405",
+          "textSelectBtnColor": "white",
+          "left": "275px",
+          "top":"600px"
+        },
+        "open": true,
+        "zoomOnFeatures": false,
+        "layers": [
+          {
+            "layerId": "densite_carcerale",
+            "filter": [
+              {
+                "attribut": "quartier",
+                "type": "button",
+                "label": "Type de quartier",
+                "updateOnChange": false
+              },
+              {
+                "attribut": "lc_disp",
+                "type": "button",
+                "label": "Direction interrégionale",
+                "updateOnChange": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

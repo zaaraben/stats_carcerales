@@ -1,0 +1,70 @@
+{{#features}}
+	<li class="item" style="width:100%;">	
+        <div class="titleComponent">
+            <h3>{{etablissement}}</h3>            
+        </div>
+        <div>
+           <p>Quartier: {{quartier}}</p>
+        </div>        
+        <div class="numberBlock">
+            <span class="numberTitle">Nombre d'écroués </br>détenus</span>
+            <span class="numberValue">{{ecroue_detenu}}</span>
+        </div>
+        <div class="numberBlock" id="blockDens_{{feature_ol_uid}}" style="color:white;">  
+                <span class="numberTitle">Densité </br>carcérale</span>
+                <span class="numberValue"><span id="densiteValue_{{feature_ol_uid}}">#</span>%</span>   
+        </div>  
+        <div class="small"><i>Mars 2023</i></div>      
+	</li>
+
+<style>
+    .item {
+        font-family: var(--myfont);
+        font-size: 1.1rem;
+    }
+
+    .numberBlock {
+    background-color: #ebeaea;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.8em;
+    line-height: 1;
+}
+
+.numberValue {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 6px;
+}
+</style>
+<script>
+    let denValue = Math.round({{densite_car}}*100);
+    document.getElementById('densiteValue_{{feature_ol_uid}}').innerHTML = denValue;
+
+    function getColor(s){
+        if(s <= 0.5 && s) {
+            color = 'rgba(222, 245, 229, 0.9)';
+        } else if(s <= 1) {
+            color = 'rgba(75, 194, 173, 0.9)';
+        } else if(s <= 1.5) {
+            color = 'rgba(53, 123, 163, 0.9)';
+        } else if(s <= 2) {
+            color = 'rgba(62, 53, 107, 0.9)';
+        } else {
+            color = 'rgba(11, 4, 5, 0.9)';
+        }
+        return color;
+    }
+
+    const blockDensite = document.getElementById('blockDens_{{feature_ol_uid}}');
+    blockDensite.style.backgroundColor = getColor('{{densite_car}}');
+
+
+</script>
+
+{{/features}}
