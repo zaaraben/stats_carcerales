@@ -13,7 +13,7 @@ Définition des propriétés de style CSS
 /* Définition des variables */
 
 :root {
-	--mycolor: #0b0405;
+	--mycolor: #24292f;
 	--myfont: 'Archivo', sans-serif;
 }
 
