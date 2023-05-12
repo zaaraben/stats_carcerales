@@ -3,7 +3,11 @@
     <application id="stats_carcerales" 
     title="Les établissements pénitentiaires en France" 
     mouseposition="false" 
-    logo="apps/stats_carcerales/icon_map.png" help="" measuretools="true" exportpng="true" style="apps/stats_carcerales/css/theme.css" togglealllayersfromtheme="true"/>
+    logo="apps/stats_carcerales/icon_map.png" help="" 
+    measuretools="true" exportpng="true" 
+    style="apps/stats_carcerales/css/theme.css" 
+    templaterightinfopanel="brut"
+    togglealllayersfromtheme="true"/>
     <mapoptions maxzoom="19" projection="EPSG:3857" center="310640.0829509563, 5907053.545878422" zoom="6" projextent="-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244" />
   
     <baselayers style="gallery">

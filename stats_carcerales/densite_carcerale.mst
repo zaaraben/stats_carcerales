@@ -24,23 +24,40 @@
     }
 
     .numberBlock {
-    background-color: #ebeaea;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 0.8em;
-    line-height: 1;
-}
+        background-color: #ebeaea;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0.8em;
+        line-height: 1;
+    }
 
-.numberValue {
-    font-size: 25px;
-    font-weight: 700;
-    padding: 6px;
-}
+    .numberValue {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 6px;
+    }
+
+    #right-panel .active {
+        padding-bottom: 0!important;
+    }
+
+    #right-panel .panel-heading {
+        display: none;
+        /* border: none; */
+    }
+
+    #right-panel .panel {
+        border: none!important;
+    }
+
+    #right-panel .list-group-item {
+        list-style-type: none;
+    }
 </style>
 <script>
     let denValue = Math.round({{densite_car}}*100);
