@@ -1,5 +1,5 @@
 
-const LAYER_URL = 'https://gis.jdev.fr/geoserver/prison/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=prison:densite_carcerale_etab&outputFormat=application%2Fjson';
+const LAYER_URL ='https://mesdonneeslocales.fr/mviewer/apps/stats_carcerales/data/stats_carcerales.json';
 const LAYER_ID = "densite_carcerale";
 
 var myStyle = new ol.style.Style({
