@@ -7398,7 +7398,10 @@
             "id": "densite_carcerale_etab.269",
             "geometry": {
                 "type": "Point",
-                "coordinates": null
+                "coordinates": [
+                    -36713.613342,
+                    6299444.442157
+                ]
             },
             "geometry_name": "geom",
             "properties": {
