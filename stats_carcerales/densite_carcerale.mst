@@ -7,7 +7,7 @@
            <p>Quartier: {{quartier}}</p>
         </div>        
         <div class="numberBlock">
-            <span class="numberTitle">Nombre d'écroués </br>détenus</span>
+            <span class="numberTitle">Nombre de personnes écrouées détenues</br>détenus</span>
             <span class="numberValue">{{ecroue_detenu}}</span>
         </div>
         <div class="numberBlock" id="blockDens_{{feature_ol_uid}}" style="color:white;">  
