@@ -31,7 +31,7 @@
 				infoformat="application/vnd.ogc.gml" infopanel="" featurecount="5"		
                 tooltip="true"	
                 tooltipcontent="{{etablissement}} - {{quartier}}"	
-                legendurl="apps/stats_carcerales/lgd.png"
+                legendurl="apps/stats_carcerales/lgd2.png"
 				attribution="Source: Ministère de la Justice" 
 				metadata=""
 				metadata-csw="" >
