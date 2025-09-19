@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <application id="stats_carcerales" 
-    title="Les établissements pénitentiaires en France" 
+    title="Densité carcérale des établissements pénitentiaires" 
     mouseposition="false" 
     logo="apps/stats_carcerales/icon_map.png" help="" 
     measuretools="true" exportpng="true" 
