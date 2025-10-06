@@ -3,7 +3,7 @@
     <application id="stats_carcerales" 
     title="Densité carcérale des établissements pénitentiaires" 
     mouseposition="false" 
-    logo="apps/stats_carcerales/icon_map.png" help="" 
+    logo="apps/stats_carcerales/icon_map.png" help="apps/stats_carcerales/help.html" 
     measuretools="true" exportpng="true" 
     style="apps/stats_carcerales/css/theme.css" 
     templaterightinfopanel="brut"
