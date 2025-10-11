@@ -14,7 +14,7 @@ tem{{#features}}
                 <span class="numberTitle">Densité </br>carcérale</span>
                 <span class="numberValue"><span id="densiteValue_{{feature_ol_uid}}">#</span>%</span>   
         </div>  
-        <div class="small"><i>Septembre 2025</i></div>      
+        <div class="small"><i>Août 2025</i></div>      
 	</li>
 
 <style>
