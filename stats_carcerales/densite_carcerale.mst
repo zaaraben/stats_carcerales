@@ -1,4 +1,4 @@
-tem{{#features}}
+{{#features}}
 	<li class="item" style="width:100%;">	
         <div class="titleComponent">
             <h3>{{etablissement}}</h3>            
