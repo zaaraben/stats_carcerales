@@ -963,8 +963,60 @@ span.badge.counter-slide {
     height: calc(100vh - 55px); /* tout le reste de l'écran pour la carte */
     z-index: 1;
 }
+
+/* BARRE DU HAUT EN MODE MOBILE */
+.xs.mode-d .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;                 /* hauteur fixe du bandeau noir */
+    padding: 0 10px !important;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+/* Logo + pin */
+.xs.mode-d .navbar-header.fixed-brand {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.xs.mode-d img.mv-logo {
+    max-height: 32px !important;
+}
+
+/* Titre dans le bandeau noir, plus dans la carte */
+.xs.mode-d .mv-title {
+    flex: 1;                      /* prend la place entre logo et hamburger */
+    padding: 0 8px !important;
+    overflow: hidden;
+}
+
+.xs.mode-d .title-app,
+.xs.mode-d .subtitle-app {
+    display: block;
+    margin: 0;
+    font-size: 14px !important;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ffffff;               /* bien lisible sur fond noir */
+}
+
+/* Hamburger bien rangé à droite dans le bandeau */
+.xs.mode-d .navbar-toggle {
+    position: relative;
+    margin: 0;
+    color: var(--mycolor);
+    background-color: #ffffff;
+    border: none;
+}
+
 /* Légende en panneau flottant en bas sur mobile */
-.xs.mode-d .mv-legend {
+/*.xs.mode-d .mv-legend {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -976,6 +1028,7 @@ span.badge.counter-slide {
     z-index: 999;
     box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
 }
+*/
 
 /* Titre de couche compact, mobile uniquement */
 .xs.mode-d .layerdisplay-title {
