@@ -4,7 +4,7 @@
     title="Densité carcérale des établissements pénitentiaires" 
     mouseposition="false" 
     logo="apps/stats_carcerales/icon_map.png" help="apps/stats_carcerales/help.html" 
-    measuretools="true" exportpng="true" 
+    measuretools="true" exportpng="true" geoloc="true"
     style="apps/stats_carcerales/css/theme.css" 
     templaterightinfopanel="brut"
     togglealllayersfromtheme="true"/>
@@ -22,7 +22,7 @@
                 <extension type="component" id="filter" path="apps/stats_carcerales/"/>
     </extensions>
     <themes>                  
-        <theme name="Population carcérale"  collapsed="false" id="densite" icon="fas fa-arrow-right">
+        <theme name="Population carcérale"  collapsed="true" id="densite" icon="fas fa-arrow-right">
             <layer id="densite_carcerale" name="Densité carcérale des établissements selon le quartier"  
                 visible="true" 
                 type="customlayer" 
