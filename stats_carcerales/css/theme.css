@@ -953,3 +953,47 @@ span.badge.counter-slide {
 .mv-legend {
     width: 90%;
 }
+
+/* MODE MOBILE MVIEWER - carte plein écran sous la barre du haut */
+.xs.mode-d #map {
+    position: fixed;
+    top: 55px; /* hauteur approximative de ta barre de titre / navbar */
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 55px); /* tout le reste de l'écran pour la carte */
+    z-index: 1;
+}
+/* Légende en panneau flottant en bas sur mobile */
+.xs.mode-d .mv-legend {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    max-height: 40vh;
+    background: rgba(255, 255, 255, 0.96);
+    overflow-y: auto;
+    padding: 8px 12px;
+    z-index: 999;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+}
+
+/* Titre de couche compact, mobile uniquement */
+.xs.mode-d .layerdisplay-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 13px;
+}
+
+/* Contrôles plus petits sur mobile */
+.xs.mode-d .ol-control {
+    transform: scale(0.8);
+    margin: 4px;
+}
+
+/* Exemple : bouton de géoloc au-dessus de la légende */
+.xs.mode-d .ol-geolocation {
+    position: absolute;
+    bottom: 70px;  /* juste au-dessus de la légende flottante */
+    right: 10px;
+}
