@@ -1006,13 +1006,21 @@ span.badge.counter-slide {
     color: #ffffff;               /* bien lisible sur fond noir */
 }
 
-/* Hamburger bien rangé à droite dans le bandeau */
+/* === Placement du bouton hamburger en mode mobile === */
 .xs.mode-d .navbar-toggle {
-    position: relative;
-    margin: 0;
-    color: var(--mycolor);
-    background-color: #ffffff;
+    position: fixed;
+    top: 56px;              /* juste en dessous du bandeau noir de 56px */
+    left: 10px;             /* aligné à gauche */
+    z-index: 2000;          /* au-dessus de la carte mais sous les modales */
+    background-color: #fff;
     border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* On retire le hamburger du flux du bandeau */
+.xs.mode-d .navbar-header .navbar-toggle {
+    position: fixed;  /* force son extraction du bandeau */
 }
 
 /* Légende en panneau flottant en bas sur mobile */
@@ -1038,15 +1046,21 @@ span.badge.counter-slide {
     font-size: 13px;
 }
 
-/* Contrôles plus petits sur mobile */
+/* Boutons OpenLayers visibles et en bonne position */
 .xs.mode-d .ol-control {
-    transform: scale(0.8);
-    margin: 4px;
+    z-index: 1500;
 }
 
-/* Exemple : bouton de géoloc au-dessus de la légende */
-.xs.mode-d .ol-geolocation {
-    position: absolute;
-    bottom: 70px;  /* juste au-dessus de la légende flottante */
-    right: 10px;
+/* Zoom sous la barre et à droite, sans toucher le hamburger */
+.xs.mode-d .ol-zoom {
+    top: 60px;         /* barre = 56px → 4px de marge */
+    right: 8px;
+}
+
+/* Bouton Géolocalisation remonté au-dessus de la légende / mini-map */
+.xs.mode-d .ol-geolocation,
+.xs.mode-d .mv-geolocate {
+    bottom: 80px;
+    right: 8px;
+    z-index: 1500;
 }
