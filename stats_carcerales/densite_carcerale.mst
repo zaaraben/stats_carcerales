@@ -60,28 +60,42 @@
     }
 </style>
 <script>
-    let denValue = ({{densite_car}} * 100).toFixed(2);
-    document.getElementById('densiteValue_{{feature_ol_uid}}').innerHTML = denValue;
+    // Récupération brute (peut être null, "NC", "", etc.)
+    const rawDensite = {{#densite_car}}{{densite_car}}{{/densite_car}}{{^densite_car}}null{{/densite_car}};
 
-    function getColor(s){
-        if(s <= 0.5 && s) {
-            color = 'rgba(222, 245, 229, 0.9)';
-        } else if(s <= 1) {
-            color = 'rgba(75, 194, 173, 0.9)';
-        } else if(s <= 1.5) {
-            color = 'rgba(53, 123, 163, 0.9)';
-        } else if(s <= 2) {
-            color = 'rgba(62, 53, 107, 0.9)';
+    const densiteValueEl = document.getElementById('densiteValue_{{feature_ol_uid}}');
+    const blockDensite = document.getElementById('blockDens_{{feature_ol_uid}}');
+
+    // Fonction couleur
+    function getColor(s) {
+        if (s === null) {
+            return 'rgba(180, 180, 180, 0.9)'; // NC
+        } else if (s <= 0.5) {
+            return 'rgba(222, 245, 229, 0.9)';
+        } else if (s <= 1) {
+            return 'rgba(75, 194, 173, 0.9)';
+        } else if (s <= 1.5) {
+            return 'rgba(53, 123, 163, 0.9)';
+        } else if (s <= 2) {
+            return 'rgba(62, 53, 107, 0.9)';
         } else {
-            color = 'rgba(11, 4, 5, 0.9)';
+            return 'rgba(11, 4, 5, 0.9)';
         }
-        return color;
     }
 
-    const blockDensite = document.getElementById('blockDens_{{feature_ol_uid}}');
-    blockDensite.style.backgroundColor = getColor('{{densite_car}}');
+    // Tentative de conversion en nombre
+    const densiteNum = Number(rawDensite);
 
-
+    if (rawDensite === null || Number.isNaN(densiteNum)) {
+        // Cas NC / invalide
+        densiteValueEl.innerHTML = 'NC';
+        blockDensite.style.backgroundColor = getColor(null);
+    } else {
+        // Cas valide
+        const percentValue = (densiteNum * 100).toFixed(2);
+        densiteValueEl.innerHTML = percentValue;
+        blockDensite.style.backgroundColor = getColor(densiteNum);
+    }
 </script>
 
 {{/features}}
