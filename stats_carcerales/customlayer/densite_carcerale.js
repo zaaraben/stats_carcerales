@@ -18,6 +18,21 @@ var myStyle = new ol.style.Style({
      * * @param {Integer} size - value to display
      * @param {String} color - as rgb, rgba or simple color name
 */
+
+function isValidNumber(v) {
+  return v !== null && v !== undefined && v !== "" && !isNaN(Number(v)) && v !== 'NC';
+}
+function layerStyleNC(r = 6, color = 'rgba(128,128,128,0.7)') {
+  return [new ol.style.Style({
+    image: new ol.style.RegularShape({
+      points: 4,
+      angle: Math.PI / 4, // losange
+      radius: r,
+      fill: new ol.style.Fill({ color }),
+      stroke: new ol.style.Stroke({ color: 'white', width: 2 })
+    })
+  })];
+}
 function layerStyle (r, size, color) {
     var style = new ol.style.Style({
         image: new ol.style.Circle({
@@ -57,6 +72,9 @@ function getStyle (feature) {
     var max_value = 4000;
     size = feature.getProperties().ecroue_detenu;
     densite = feature.getProperties().densite_car;
+    if ( !isValidNumber (densite)){
+        return layerStyle(6,'rgba(128,128,128,0.7)');
+    }
     var colors = getColor(densite);
     // radius
     radius = Math.sqrt(size/max_value) * max_radius;
