@@ -73,7 +73,7 @@ function getStyle (feature) {
     size = feature.getProperties().ecroue_detenu;
     densite = feature.getProperties().densite_car;
     if ( !isValidNumber (densite)){
-        return layerStyle(6,'rgba(128,128,128,0.7)');
+        return layerStyle(10);
     }
     var colors = getColor(densite);
     // radius
