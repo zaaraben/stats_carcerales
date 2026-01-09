@@ -14,7 +14,7 @@
                 <span class="numberTitle">Densité </br>carcérale</span>
                 <span class="numberValue"><span id="densiteValue_{{feature_ol_uid}}">#</span>%</span>   
         </div>  
-        <div class="small"><i>Novembre 2025</i></div>      
+        <div class="small"><i>Décembre 2025</i></div>      
 	</li>
 
 <style>
@@ -60,7 +60,7 @@
     }
 </style>
 <script>
-    let denValue = Math.round({{densite_car}}*100);
+    let denValue = ({{densite_car}} * 100).toFixed(2);
     document.getElementById('densiteValue_{{feature_ol_uid}}').innerHTML = denValue;
 
     function getColor(s){
