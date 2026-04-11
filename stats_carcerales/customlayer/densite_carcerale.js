@@ -1,5 +1,9 @@
 
-const LAYER_URL ='https://mesdonneeslocales.fr/mviewer/apps/stats_carcerales/data/stats_carcerales.json';
+const LAYER_URL = (function() {
+    // avoid hard coded url
+    var base = window.location.href.split('?')[0].replace(/\/[^/]*$/, '');
+    return base + '/apps/stats_carcerales/data/stats_carcerales.json';
+})();
 const LAYER_ID = "densite_carcerale";
 
 var myStyle = new ol.style.Style({
