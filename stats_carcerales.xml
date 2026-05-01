@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <application id="stats_carcerales" 
-    title="Densité carcérale des établissements pénitentiaires au 1er mars 2026" 
+    title="Densité carcérale des établissements pénitentiaires au 1er avril 2026" 
     mouseposition="false" 
     logo="apps/stats_carcerales/icon_map.png" help="apps/stats_carcerales/help.html" 
     measuretools="true" exportpng="true" geoloc="true"
