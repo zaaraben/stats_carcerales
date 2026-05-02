@@ -21,18 +21,20 @@
     margin-bottom: 1em;
 }
 
-.advancedFilter h2 .glyphicon-refresh {
+.advancedFilter .filter-legend .glyphicon-refresh {
   position: absolute;
   cursor: pointer;
   right: 36px;
   top: 0px;
+  z-index: 2;
 }
 
-.advancedFilter h2 .glyphicon-remove {
+.advancedFilter .filter-legend .glyphicon-remove {
   position: absolute;
   cursor: pointer;
   right: 4px;
   top: 0px;
+  z-index: 2;
 }
 
 /* Reset button styles pour les icônes fermer/réinitialiser (fix iOS Safari) */
@@ -43,6 +45,10 @@
   margin: 0;
   line-height: 1;
   touch-action: manipulation;
+}
+
+.filter-icon-btn:hover {
+  opacity: 0.6;
 }
 
 .advancedFilter label {

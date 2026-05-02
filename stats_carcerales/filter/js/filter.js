@@ -474,8 +474,7 @@ var filter = (function () {
         <div class="form-check mb-2 mr-sm-2">
         <div class="form-check filter-legend">
         <legend class="textlabel"> ${filterParams.label} </legend>
-        <span id='${clearId}' class="filter-clear glyphicon glyphicon-trash textlabel" onclick="filter.clearFilter(this.id);"
-         data-toggle="filter-tooltip" data-original-title="Réinitaliser ce filtre"></span>
+        <span id='${clearId}' class="filter-clear glyphicon glyphicon-trash textlabel" onclick="filter.clearFilter(this.id);"></span>
         </div>
         <div id="${id}" class="form-check">
         `,
@@ -527,8 +526,7 @@ var filter = (function () {
         '<legend class="textlabel"> ' + filterParams.label + " </legend>",
         "<span id=" +
           clearId +
-          ' class="filter-clear glyphicon glyphicon-trash textlabel" onclick="filter.clearFilter(this.id);"',
-        ' data-toggle="filter-tooltip" data-original-title="Réinitaliser ce filtre"></span>',
+          ' class="filter-clear glyphicon glyphicon-trash textlabel" onclick="filter.clearFilter(this.id);"></span>',
         "</div>",
         '<div id ="' + id + '" class="form-check">',
       ];
@@ -589,8 +587,7 @@ var filter = (function () {
         '<legend class="textlabel"> ' + params.label + " </legend>",
         "<span id=" +
           clearId +
-          ' class="filter-clear glyphicon glyphicon-trash textlabel"',
-        ' data-toggle="filter-tooltip" data-original-title="Réinitaliser ce filtre"></span>',
+          ' class="filter-clear glyphicon glyphicon-trash textlabel"></span>',
         "</div>",
       ];
       _text.push(
@@ -660,8 +657,7 @@ var filter = (function () {
         <div class="form-group form-group-timer mb-2 mr-sm-2">
         <div class="form-check filter-legend">
         <legend class="textlabel">${params.label}</legend>
-        <span id=${clearId} class="filter-clear glyphicon glyphicon-trash textlabel"
-         data-toggle="filter-tooltip" data-original-title="Réinitaliser ce filtre"></span>
+        <span id=${clearId} class="filter-clear glyphicon glyphicon-trash textlabel"></span>
         </div>`,
       ];
       _datePicker.push('<input type="text" class="form-control" id="' + id + '" />');
@@ -727,8 +723,7 @@ var filter = (function () {
         '<legend class="textlabel"> ' + params.label + " </legend>",
         "<span id=" +
           clearId +
-          ' class="filter-clear glyphicon glyphicon-trash textlabel"',
-        ' data-toggle="filter-tooltip" data-original-title="Réinitaliser ce filtre"></span>',
+          ' class="filter-clear glyphicon glyphicon-trash textlabel"></span>',
         "</div>",
         '<select id="' +
           id +
