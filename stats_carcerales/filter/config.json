@@ -15,7 +15,8 @@
           "unSelectedBtnColor": "#0a0405",
           "textSelectBtnColor": "white",
           "left": "275px",
-          "top":"600px"
+          "top": "auto",
+          "bottom": "20px"
         },
         "open": false,
         "zoomOnFeatures": false,
