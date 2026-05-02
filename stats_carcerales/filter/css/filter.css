@@ -24,22 +24,22 @@
 .advancedFilter h2 .glyphicon-refresh {
   position: absolute;
   cursor: pointer;
-  right: 20px;
-  top: 4px;
+  right: 36px;
+  top: 0px;
 }
 
 .advancedFilter h2 .glyphicon-remove {
   position: absolute;
   cursor: pointer;
-  right: 0px;
-  top: 4px;
+  right: 4px;
+  top: 0px;
 }
 
 /* Reset button styles pour les icônes fermer/réinitialiser (fix iOS Safari) */
 .filter-icon-btn {
   background: none;
   border: none;
-  padding: 8px;
+  padding: 6px;
   margin: 0;
   line-height: 1;
   touch-action: manipulation;
