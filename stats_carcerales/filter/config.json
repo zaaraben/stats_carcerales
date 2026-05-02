@@ -17,7 +17,7 @@
           "left": "275px",
           "top":"600px"
         },
-        "open": true,
+        "open": false,
         "zoomOnFeatures": false,
         "layers": [
           {
