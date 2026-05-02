@@ -35,6 +35,16 @@
   top: 4px;
 }
 
+/* Reset button styles pour les icônes fermer/réinitialiser (fix iOS Safari) */
+.filter-icon-btn {
+  background: none;
+  border: none;
+  padding: 8px;
+  margin: 0;
+  line-height: 1;
+  touch-action: manipulation;
+}
+
 .advancedFilter label {
   margin-right: 2px;
     margin-left: 2px;
