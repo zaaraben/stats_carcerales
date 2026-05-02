@@ -1064,3 +1064,26 @@ span.badge.counter-slide {
     right: 8px;
     z-index: 1500;
 }
+
+/* Toolbars droite (zoom, outils) visibles au-dessus de la carte en mode mobile */
+.xs.mode-d #zoomtoolbar,
+.xs.mode-d #toolstoolbar {
+    position: fixed;
+    right: 8px;
+    z-index: 1500;
+}
+
+.xs.mode-d #zoomtoolbar {
+    top: 65px;
+}
+
+.xs.mode-d #toolstoolbar {
+    top: 165px;
+}
+
+/* Fond de plan visible en mode mobile */
+.xs.mode-d #backgroundlayersbtn {
+    position: fixed;
+    right: 8px;
+    z-index: 1500;
+}
