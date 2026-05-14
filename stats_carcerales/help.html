@@ -1,52 +1,172 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Aide - Carte des établissements pénitentiaires</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aide — Densité carcérale</title>
   <style>
-    body {
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.5; margin: 0; padding: 16px; color: #222; font-size: 13px; }
+    h1 { font-size: 17px; margin: 0 0 16px 0; color: #24292f; }
+    h2 { font-size: 14px; margin: 16px 0 8px 0; color: #24292f; }
+    p  { margin: 6px 0; }
+    ul { margin: 6px 0 6px 18px; }
+    li { margin-bottom: 4px; }
+    .k { font-weight: 700; }
+    .small { font-size: 12px; color: #555; }
+    .chip { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px; border: 1px solid #ccc; background: #f5f5f5; }
+    .box { background: #fafafa; border: 1px solid #e6e6e6; border-radius: 8px; padding: 10px 14px; margin: 10px 0; }
+    .sep { height: 1px; background: #eee; margin: 14px 0; }
+
+    /* ── Onglets (même modèle que incidents nucléaires) ── */
+    .tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 2px solid #e0e0e0; padding-bottom: 0; flex-wrap: wrap; }
+    .tab-btn {
+      padding: 7px 14px;
+      border: none;
+      background: none;
       font-family: Arial, sans-serif;
-      padding: 20px;
-      line-height: 1.6;
-      color: #333;
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      border-radius: 4px 4px 0 0;
+      transition: color 0.15s;
     }
-    h2 {
-      color: #2c3e50;
-    }
-    ul {
-      padding-left: 20px;
-    }
+    .tab-btn:hover { color: #24292f; }
+    .tab-btn.active { color: #24292f; border-bottom-color: #24292f; background: #f5f5f5; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Légende visuelle (si besoin d’icônes SVG plus tard) ── */
+    .legend-row { display: flex; align-items: flex-start; gap: 12px; margin: 8px 0; }
+    .legend-icon { flex-shrink: 0; width: 32px; text-align: center; padding-top: 2px; }
+    svg.icon { overflow: visible; }
   </style>
 </head>
 <body>
 
-  <p>
-    La France compte, en 2025, 188 établissements pénitentiaires, de plusieurs types selon le régime de détention et les catégories de condamnation.Les 188 établissements sont classés en deux grandes catégories : maisons d’arrêt et établissements pour peine.
-  </p>
+  <h1>Aide — Carte des établissements pénitentiaires</h1>
 
-  <p>
-    <strong>Les maisons d’arrêt :</strong> Au nombre de 86, elles reçoivent les personnes en détention provisoire (personnes détenues en attente de jugement ou dont la condamnation n’est pas définitive) ainsi que les personnes condamnées dont la peine ou le reliquat de peine n’excède pas deux ans.
-  </p>
+  <nav class="tabs">
+    <button class="tab-btn active" onclick="showTab('carte',this)">La carte</button>
+    <button class="tab-btn" onclick="showTab('fiches',this)">Les fiches</button>
+    <button class="tab-btn" onclick="showTab('legende',this)">Légende</button>
+    <button class="tab-btn" onclick="showTab('sources',this)">Sources</button>
+  </nav>
 
-  <p>
-    <strong>Les établissements pour peine :</strong> Au nombre de 94, ils sont divisés en maisons centrales (6), centres de détention (27), centres de semi-liberté (11), en fonction du type de population pénale qu’ils accueillent. Les centres pénitentiaires (50), établissements mixtes, comprennent au moins deux quartiers différents (maison d’arrêt, centre de détention et/ou maison centrale). On compte 6 établissements pénitentiaires pour mineurs et l’établissement public de santé national de Fresnes (EPSNF).
-  </p>
+  <!-- ── Onglet 1 : La carte ── -->
+  <div id="tab-carte" class="tab-panel active">
+    <h2>Navigation</h2>
+    <ul>
+      <li><span class="k">Zoom</span> : molette ou boutons + / −</li>
+      <li><span class="k">Déplacement</span> : cliquer-glisser sur la carte</li>
+      <li><span class="k">Cliquer un établissement</span> : ouvre la fiche détaillée dans le panneau latéral</li>
+      <li><span class="k">Survol</span> : affiche le nom de l’établissement et le quartier dans une bulle</li>
+    </ul>
 
-  <p><strong>Abréviations :</strong></p>
-  <ul>
-    <li><strong>CD/QCD</strong> : Centre de détention ou quartier centre de détention : Les centres de détention (ou quartiers centre de détention au sein d’un centre pénitentiaire) sont des établissements pour peine qui accueillent les détenus condamnés à une peine supérieure à 2 ans.</li>
-    <li><strong>CNE</strong> : Centre national d’évaluation : Les centres nationaux d’évaluation visent à proposer une affectation en établissement pour peines adaptée aux personnes détenues et/ou à évaluer l’existence ou la persistance d’une dangerosité éventuelle chez les condamnés dans le cadre de l’examen d’une demande d’aménagement de peine ou d’une mesure de sûreté.</li>
-    <li><strong>CSL/QSL</strong> : Centre ou quartier semi-liberté : Les centres (ou quartiers) de semi-liberté reçoivent des personnes condamnées admises au régime du placement extérieur ou de la semi-liberté.</li>
-    <li><strong>EPM/QM</strong> : Etablissement ou quartier pour mineurs : Les établissements pour mineurs (ou quartiers pour mineurs) accueillent de jeunes détenus, âgés de 13 à 17 ans inclus.</li>
-    <li><strong>EPSN</strong> : Etablissement public de santé national : L’Etablissement public de santé national accueille les personnes détenues nécessitant des soins de santé.</li>
-    <li><strong>MA/QMA</strong> : Maison d’arrêt ou quartier maison d’arrêt : Les maisons d’arrêt (ou quartiers maison d’arrêt au sein d’un centre pénitentiaire) reçoivent les personnes prévenues en détention provisoire ainsi que les personnes condamnées dont la peine ou le reliquat de peine n’excède pas deux ans.</li>
-    <li><strong>MC/QMC</strong> : Maison centrale ou quartier maison centrale : Les maisons centrales (ou quartiers maison central au sein d’un centre pénitentiaire) sont des établissements pour peine qui accueillent les détenus condamnés à de longues peines. Le régime de détention est essentiellement axé sur la sécurité.</li>
-    <li><strong>SAS</strong> : Structure d’accompagnement vers la sortie : Les structures d’accompagnement vers la sortie remplacent les centres pour peines aménagées. Elles reçoivent les personnes condamnées bénéficiant d’une mesure de semi-liberté ou d’un placement à l’extérieur ainsi que les personnes condamnées dont le reliquat de peine est inférieur à un an, afin de leur permettre de concrétiser un projet de réinsertion.</li>
-  </ul>
+    <h2>Filtrer les établissements</h2>
+    <div class="box">
+      <p>Un bouton <span class="k">filtre</span> (icône entonnoir) est disponible dans la barre d’outils à droite. Le panneau permet de restreindre les points affichés sur la carte :</p>
+      <ul>
+        <li><span class="k">Type de quartier</span> : filtre selon le type de quartier pénitentiaire (MA/QMA, CD/QCD, etc.)</li>
+        <li><span class="k">Direction interrégionale</span> : filtre selon la direction interrégionale d’administration</li>
+      </ul>
+      <p class="small">Combinez les critères pour affiner la vue ; réinitialisez les filtres depuis le panneau si besoin.</p>
+    </div>
+  </div>
 
-  <p><strong>Source :</strong><br>
-    <a href="https://www.justice.gouv.fr/documentation/etudes-et-statistiques/statistiques-mensuelles-population-detenue-ecrouee-9" target="_blank">https://www.justice.gouv.fr/documentation/etudes-et-statistiques/statistiques-mensuelles-population-detenue-ecrouee-9</a><br>
-    <a href="https://www.penitentiaire.justice.fr/communication/faq" target="_blank">https://www.penitentiaire.justice.fr/communication/faq (juin 2025)</a>
-  </p>
+  <!-- ── Onglet 2 : Les fiches ── -->
+  <div id="tab-fiches" class="tab-panel">
+    <h2>Informations par établissement</h2>
+    <div class="box">
+      <ul>
+        <li><span class="k">Nom de l’établissement</span> : titre de la fiche (libellé pénitentiaire du point cliqué)</li>
+        <li><span class="k">Quartier</span> : type ou appellation du quartier (ex. MA/QMA, CD/QCD, etc.)</li>
+        <li><span class="k">Nombre de personnes écrouées détenues</span> : effectif écroué pour ce lieu</li>
+        <li><span class="k">Densité carcérale</span> : rapport exprimé en pourcentage (arrondi à deux décimales) ; la valeur <span class="chip">NC</span> s’affiche si la densité n’est pas calculable ou non communiquée</li>
+      </ul>
+    </div>
+
+    <h2>Affichage des indicateurs</h2>
+    <p>Les deux encadrés chiffrés reprennent les mêmes intitulés que sur la fiche :</p>
+    <ul>
+      <li>le bloc <span class="k">Nombre de personnes écrouées détenues</span> présente l’effectif sur fond gris ;</li>
+      <li>le bloc <span class="k">Densité carcérale</span> colorise le fond selon la classe de densité (du plus clair au plus foncé, comme sur la carte).</li>
+    </ul>
+
+    <div class="sep"></div>
+
+    <h2>Mise à jour</h2>
+    <p class="small">
+      En bas de la fiche, une mention indique la <span class="k">date de mise à jour</span> des données affichées pour cette cartographie.
+    </p>
+
+    <div class="sep"></div>
+
+    <p>
+      La France compte, en 2025, 188 établissements pénitentiaires, de plusieurs types selon le régime de détention et les catégories de condamnation.Les 188 établissements sont classés en deux grandes catégories : maisons d’arrêt et établissements pour peine.
+    </p>
+
+    <p>
+      <strong>Les maisons d’arrêt :</strong> Au nombre de 86, elles reçoivent les personnes en détention provisoire (personnes détenues en attente de jugement ou dont la condamnation n’est pas définitive) ainsi que les personnes condamnées dont la peine ou le reliquat de peine n’excède pas deux ans.
+    </p>
+
+    <p>
+      <strong>Les établissements pour peine :</strong> Au nombre de 94, ils sont divisés en maisons centrales (6), centres de détention (27), centres de semi-liberté (11), en fonction du type de population pénale qu’ils accueillent. Les centres pénitentiaires (50), établissements mixtes, comprennent au moins deux quartiers différents (maison d’arrêt, centre de détention et/ou maison centrale). On compte 6 établissements pénitentiaires pour mineurs et l’établissement public de santé national de Fresnes (EPSNF).
+    </p>
+
+    <p><strong>Abréviations :</strong></p>
+    <ul>
+      <li><strong>CD/QCD</strong> : Centre de détention ou quartier centre de détention : Les centres de détention (ou quartiers centre de détention au sein d’un centre pénitentiaire) sont des établissements pour peine qui accueillent les détenus condamnés à une peine supérieure à 2 ans.</li>
+      <li><strong>CNE</strong> : Centre national d’évaluation : Les centres nationaux d’évaluation visent à proposer une affectation en établissement pour peines adaptée aux personnes détenues et/ou à évaluer l’existence ou la persistance d’une dangerosité éventuelle chez les condamnés dans le cadre de l’examen d’une demande d’aménagement de peine ou d’une mesure de sûreté.</li>
+      <li><strong>CSL/QSL</strong> : Centre ou quartier semi-liberté : Les centres (ou quartiers) de semi-liberté reçoivent des personnes condamnées admises au régime du placement extérieur ou de la semi-liberté.</li>
+      <li><strong>EPM/QM</strong> : Etablissement ou quartier pour mineurs : Les établissements pour mineurs (ou quartiers pour mineurs) accueillent de jeunes détenus, âgés de 13 à 17 ans inclus.</li>
+      <li><strong>EPSN</strong> : Etablissement public de santé national : L’Etablissement public de santé national accueille les personnes détenues nécessitant des soins de santé.</li>
+      <li><strong>MA/QMA</strong> : Maison d’arrêt ou quartier maison d’arrêt : Les maisons d’arrêt (ou quartiers maison d’arrêt au sein d’un centre pénitentiaire) reçoivent les personnes prévenues en détention provisoire ainsi que les personnes condamnées dont la peine ou le reliquat de peine n’excède pas deux ans.</li>
+      <li><strong>MC/QMC</strong> : Maison centrale ou quartier maison centrale : Les maisons centrales (ou quartiers maison central au sein d’un centre pénitentiaire) sont des établissements pour peine qui accueillent les détenus condamnés à de longues peines. Le régime de détention est essentiellement axé sur la sécurité.</li>
+      <li><strong>SAS</strong> : Structure d’accompagnement vers la sortie : Les structures d’accompagnement vers la sortie remplacent les centres pour peines aménagées. Elles reçoivent les personnes condamnées bénéficiant d’une mesure de semi-liberté ou d’un placement à l’extérieur ainsi que les personnes condamnées dont le reliquat de peine est inférieur à un an, afin de leur permettre de concrétiser un projet de réinsertion.</li>
+    </ul>
+  </div>
+
+  <!-- ── Onglet 3 : Légende ── -->
+  <div id="tab-legende" class="tab-panel">
+    <h2>Lecture de la carte</h2>
+    <p class="small">(À adapter) Symboles, couleurs, taille des points, valeur <span class="chip">NC</span> si besoin.</p>
+
+    <h2>Légende graphique</h2>
+    <p class="small">(À adapter) Image officielle de la légende :</p>
+    <img src="apps/stats_carcerales/legende_stats_carcerales.png" alt="Légende densité carcérale" style="max-width:100%; margin-top:8px; border:1px solid #e6e6e6; border-radius:6px;">
+  </div>
+
+  <!-- ── Onglet 4 : Sources ── -->
+  <div id="tab-sources" class="tab-panel">
+    <h2>Sources</h2>
+    <div class="box">
+      <p><strong>Source :</strong><br>
+        <a href="https://www.justice.gouv.fr/documentation/etudes-et-statistiques/statistiques-mensuelles-population-detenue-ecrouee-9" target="_blank" rel="noopener">https://www.justice.gouv.fr/documentation/etudes-et-statistiques/statistiques-mensuelles-population-detenue-ecrouee-9</a><br>
+        <a href="https://www.penitentiaire.justice.fr/communication/faq" target="_blank" rel="noopener">https://www.penitentiaire.justice.fr/communication/faq (juin 2025)</a>
+      </p>
+    </div>
+
+    <p class="small">(À adapter) Précisions sur la couche, les millésimes, les limites d’usage.</p>
+
+    <div class="sep"></div>
+
+    <p class="small" style="color:#999;">
+      Carte réalisée avec <a href="https://mviewer.github.io" target="_blank" rel="noopener" style="color:#999;">mviewer</a>.
+    </p>
+  </div>
+
+  <script>
+    function showTab(id, btn) {
+      document.querySelectorAll(".tab-panel").forEach(function(p) { p.classList.remove("active"); });
+      document.querySelectorAll(".tab-btn").forEach(function(b) { b.classList.remove("active"); });
+      document.getElementById("tab-" + id).classList.add("active");
+      btn.classList.add("active");
+    }
+  </script>
+
 </body>
 </html>
