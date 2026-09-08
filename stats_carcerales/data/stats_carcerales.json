@@ -25,8 +25,8 @@
                 "code_postal": 61200,
                 "latitude": 48.729018,
                 "longitude": -0.010275,
-                "ecroue_detenu": 626,
-                "densite_car": 0.981
+                "ecroue_detenu": 631,
+                "densite_car": 0.989
             }
         },
         {
@@ -53,8 +53,8 @@
                 "code_postal": 62450,
                 "latitude": 50.101831,
                 "longitude": 2.864649,
-                "ecroue_detenu": 563,
-                "densite_car": 0.951
+                "ecroue_detenu": 559,
+                "densite_car": 0.944
             }
         },
         {
@@ -109,8 +109,8 @@
                 "code_postal": 20270,
                 "latitude": 42.128797,
                 "longitude": 9.509584,
-                "ecroue_detenu": 148,
-                "densite_car": 0.763
+                "ecroue_detenu": 155,
+                "densite_car": 0.799
             }
         },
         {
@@ -137,8 +137,8 @@
                 "code_postal": 45000,
                 "latitude": 47.910474,
                 "longitude": 1.89452,
-                "ecroue_detenu": 584,
-                "densite_car": 1.01
+                "ecroue_detenu": 577,
+                "densite_car": 0.998
             }
         },
         {
@@ -165,8 +165,8 @@
                 "code_postal": 54200,
                 "latitude": 48.681138,
                 "longitude": 5.851121,
-                "ecroue_detenu": 264,
-                "densite_car": 0.985
+                "ecroue_detenu": 266,
+                "densite_car": 0.993
             }
         },
         {
@@ -193,8 +193,8 @@
                 "code_postal": 47300,
                 "latitude": 44.417327,
                 "longitude": 0.720177,
-                "ecroue_detenu": 282,
-                "densite_car": 0.976
+                "ecroue_detenu": 284,
+                "densite_car": 0.983
             }
         },
         {
@@ -221,8 +221,8 @@
                 "code_postal": 89440,
                 "latitude": 47.620052,
                 "longitude": 3.864934,
-                "ecroue_detenu": 590,
-                "densite_car": 0.98
+                "ecroue_detenu": 579,
+                "densite_car": 0.962
             }
         },
         {
@@ -249,8 +249,8 @@
                 "code_postal": 98860,
                 "latitude": -21.074421,
                 "longitude": 164.869372,
-                "ecroue_detenu": 118,
-                "densite_car": 0.983
+                "ecroue_detenu": 119,
+                "densite_car": 0.992
             }
         },
         {
@@ -277,8 +277,8 @@
                 "code_postal": 97420,
                 "latitude": -20.952553,
                 "longitude": 55.310734,
-                "ecroue_detenu": 502,
-                "densite_car": 0.992
+                "ecroue_detenu": 498,
+                "densite_car": 0.984
             }
         },
         {
@@ -305,8 +305,8 @@
                 "code_postal": 24150,
                 "latitude": 44.853868,
                 "longitude": 0.793269,
-                "ecroue_detenu": 367,
-                "densite_car": 1.0
+                "ecroue_detenu": 365,
+                "densite_car": 0.995
             }
         },
         {
@@ -333,8 +333,8 @@
                 "code_postal": 77000,
                 "latitude": 48.535488,
                 "longitude": 2.661947,
-                "ecroue_detenu": 294,
-                "densite_car": 0.977
+                "ecroue_detenu": 290,
+                "densite_car": 0.963
             }
         },
         {
@@ -361,8 +361,8 @@
                 "code_postal": 55600,
                 "latitude": 49.524055,
                 "longitude": 5.371531,
-                "ecroue_detenu": 336,
-                "densite_car": 1.003
+                "ecroue_detenu": 337,
+                "densite_car": 1.006
             }
         },
         {
@@ -389,8 +389,8 @@
                 "code_postal": 31600,
                 "latitude": 43.490694,
                 "longitude": 1.315372,
-                "ecroue_detenu": 611,
-                "densite_car": 0.985
+                "ecroue_detenu": 610,
+                "densite_car": 0.984
             }
         },
         {
@@ -417,8 +417,8 @@
                 "code_postal": 24190,
                 "latitude": 45.089861,
                 "longitude": 0.469087,
-                "ecroue_detenu": 394,
-                "densite_car": 0.992
+                "ecroue_detenu": 396,
+                "densite_car": 0.997
             }
         },
         {
@@ -445,8 +445,8 @@
                 "code_postal": 67970,
                 "latitude": 49.001267,
                 "longitude": 7.139286,
-                "ecroue_detenu": 269,
-                "densite_car": 1.004
+                "ecroue_detenu": 266,
+                "densite_car": 0.993
             }
         },
         {
@@ -473,8 +473,8 @@
                 "code_postal": 42300,
                 "latitude": 46.055496,
                 "longitude": 4.096887,
-                "ecroue_detenu": 584,
-                "densite_car": 1.012
+                "ecroue_detenu": 585,
+                "densite_car": 1.014
             }
         },
         {
@@ -501,8 +501,8 @@
                 "code_postal": 13300,
                 "latitude": 43.6377,
                 "longitude": 5.062036,
-                "ecroue_detenu": 635,
-                "densite_car": 0.977
+                "ecroue_detenu": 638,
+                "densite_car": 0.982
             }
         },
         {
@@ -529,8 +529,8 @@
                 "code_postal": 55300,
                 "latitude": 48.882459,
                 "longitude": 5.53138,
-                "ecroue_detenu": 390,
-                "densite_car": 0.997
+                "ecroue_detenu": 382,
+                "densite_car": 0.977
             }
         },
         {
@@ -557,8 +557,8 @@
                 "code_postal": 81370,
                 "latitude": 43.77618,
                 "longitude": 1.693254,
-                "ecroue_detenu": "NC",
-                "densite_car": "NC"
+                "ecroue_detenu": 95,
+                "densite_car": 0.96
             }
         },
         {
@@ -585,8 +585,8 @@
                 "code_postal": 13150,
                 "latitude": 43.785736,
                 "longitude": 4.677078,
-                "ecroue_detenu": 640,
-                "densite_car": 0.985
+                "ecroue_detenu": 636,
+                "densite_car": 0.978
             }
         },
         {
@@ -613,8 +613,8 @@
                 "code_postal": 98726,
                 "latitude": -17.722,
                 "longitude": -149.399,
-                "ecroue_detenu": 409,
-                "densite_car": 0.998
+                "ecroue_detenu": 408,
+                "densite_car": 0.995
             }
         },
         {
@@ -641,8 +641,8 @@
                 "code_postal": 54200,
                 "latitude": 48.659803,
                 "longitude": 5.884078,
-                "ecroue_detenu": 414,
-                "densite_car": 0.97
+                "ecroue_detenu": 419,
+                "densite_car": 0.981
             }
         },
         {
@@ -669,8 +669,8 @@
                 "code_postal": 19140,
                 "latitude": 45.431151,
                 "longitude": 1.587151,
-                "ecroue_detenu": 576,
-                "densite_car": 0.991
+                "ecroue_detenu": 569,
+                "densite_car": 0.979
             }
         },
         {
@@ -697,8 +697,8 @@
                 "code_postal": 27100,
                 "latitude": 49.274029,
                 "longitude": 1.216684,
-                "ecroue_detenu": 798,
-                "densite_car": 0.96
+                "ecroue_detenu": 816,
+                "densite_car": 0.982
             }
         },
         {
@@ -725,8 +725,8 @@
                 "code_postal": 10370,
                 "latitude": 48.591865,
                 "longitude": 3.565451,
-                "ecroue_detenu": 556,
-                "densite_car": 0.952
+                "ecroue_detenu": 553,
+                "densite_car": 0.947
             }
         },
         {
@@ -753,8 +753,8 @@
                 "code_postal": 73220,
                 "latitude": 45.564307,
                 "longitude": 6.266051,
-                "ecroue_detenu": 196,
-                "densite_car": 0.98
+                "ecroue_detenu": 203,
+                "densite_car": 1.015
             }
         },
         {
@@ -781,8 +781,8 @@
                 "code_postal": 73220,
                 "latitude": 45.564307,
                 "longitude": 6.266051,
-                "ecroue_detenu": 363,
-                "densite_car": 1.658
+                "ecroue_detenu": 348,
+                "densite_car": 1.589
             }
         },
         {
@@ -809,8 +809,8 @@
                 "code_postal": 13290,
                 "latitude": 43.483902,
                 "longitude": 5.397307,
-                "ecroue_detenu": 23,
-                "densite_car": 0.46
+                "ecroue_detenu": 21,
+                "densite_car": 0.42
             }
         },
         {
@@ -865,8 +865,8 @@
                 "code_postal": 13290,
                 "latitude": 43.483902,
                 "longitude": 5.397307,
-                "ecroue_detenu": 1997,
-                "densite_car": 1.62
+                "ecroue_detenu": 1949,
+                "densite_car": 1.581
             }
         },
         {
@@ -893,8 +893,8 @@
                 "code_postal": 61250,
                 "latitude": 48.436296,
                 "longitude": 0.022828,
-                "ecroue_detenu": 67,
-                "densite_car": 0.985
+                "ecroue_detenu": 71,
+                "densite_car": 1.044
             }
         },
         {
@@ -921,8 +921,8 @@
                 "code_postal": 84130,
                 "latitude": 43.968403,
                 "longitude": 4.861486,
-                "ecroue_detenu": 47,
-                "densite_car": 0.922
+                "ecroue_detenu": 44,
+                "densite_car": 0.863
             }
         },
         {
@@ -949,8 +949,8 @@
                 "code_postal": 84130,
                 "latitude": 43.968403,
                 "longitude": 4.861486,
-                "ecroue_detenu": 175,
-                "densite_car": 0.972
+                "ecroue_detenu": 171,
+                "densite_car": 0.95
             }
         },
         {
@@ -977,8 +977,8 @@
                 "code_postal": 84130,
                 "latitude": 43.968403,
                 "longitude": 4.861486,
-                "ecroue_detenu": 759,
-                "densite_car": 1.926
+                "ecroue_detenu": 783,
+                "densite_car": 1.987
             }
         },
         {
@@ -1005,8 +1005,8 @@
                 "code_postal": 97122,
                 "latitude": 16.262483,
                 "longitude": -61.572519,
-                "ecroue_detenu": 265,
-                "densite_car": 1.109
+                "ecroue_detenu": 262,
+                "densite_car": 1.096
             }
         },
         {
@@ -1033,8 +1033,8 @@
                 "code_postal": 97122,
                 "latitude": 16.262483,
                 "longitude": -61.572519,
-                "ecroue_detenu": 497,
-                "densite_car": 2.269
+                "ecroue_detenu": 484,
+                "densite_car": 2.21
             }
         },
         {
@@ -1089,8 +1089,8 @@
                 "code_postal": 60000,
                 "latitude": 49.417894,
                 "longitude": 2.087546,
-                "ecroue_detenu": 795,
-                "densite_car": 1.357
+                "ecroue_detenu": 815,
+                "densite_car": 1.391
             }
         },
         {
@@ -1117,8 +1117,8 @@
                 "code_postal": 34500,
                 "latitude": 43.339642,
                 "longitude": 3.17985,
-                "ecroue_detenu": 402,
-                "densite_car": 0.957
+                "ecroue_detenu": 408,
+                "densite_car": 0.971
             }
         },
         {
@@ -1145,8 +1145,8 @@
                 "code_postal": 34500,
                 "latitude": 43.339642,
                 "longitude": 3.17985,
-                "ecroue_detenu": 791,
-                "densite_car": 2.033
+                "ecroue_detenu": 795,
+                "densite_car": 2.044
             }
         },
         {
@@ -1173,8 +1173,8 @@
                 "code_postal": 78390,
                 "latitude": 48.805643,
                 "longitude": 2.031526,
-                "ecroue_detenu": 51,
-                "densite_car": 0.836
+                "ecroue_detenu": 52,
+                "densite_car": 0.852
             }
         },
         {
@@ -1201,8 +1201,8 @@
                 "code_postal": 78390,
                 "latitude": 48.805643,
                 "longitude": 2.031526,
-                "ecroue_detenu": 941,
-                "densite_car": 2.002
+                "ecroue_detenu": 953,
+                "densite_car": 2.028
             }
         },
         {
@@ -1229,8 +1229,8 @@
                 "code_postal": 33170,
                 "latitude": 44.780168,
                 "longitude": -0.594435,
-                "ecroue_detenu": 89,
-                "densite_car": 1.085
+                "ecroue_detenu": 88,
+                "densite_car": 1.073
             }
         },
         {
@@ -1257,8 +1257,8 @@
                 "code_postal": 33170,
                 "latitude": 44.780168,
                 "longitude": -0.594435,
-                "ecroue_detenu": 1133,
-                "densite_car": 2.056
+                "ecroue_detenu": 1137,
+                "densite_car": 2.064
             }
         },
         {
@@ -1285,8 +1285,8 @@
                 "code_postal": 20290,
                 "latitude": 42.577196,
                 "longitude": 9.465271,
-                "ecroue_detenu": 47,
-                "densite_car": 0.979
+                "ecroue_detenu": 48,
+                "densite_car": 1.0
             }
         },
         {
@@ -1313,8 +1313,8 @@
                 "code_postal": 20290,
                 "latitude": 42.577196,
                 "longitude": 9.465271,
-                "ecroue_detenu": 281,
-                "densite_car": 1.456
+                "ecroue_detenu": 264,
+                "densite_car": 1.368
             }
         },
         {
@@ -1341,8 +1341,8 @@
                 "code_postal": 1000,
                 "latitude": 46.196824,
                 "longitude": 5.246578,
-                "ecroue_detenu": 27,
-                "densite_car": 0.675
+                "ecroue_detenu": 28,
+                "densite_car": 0.7
             }
         },
         {
@@ -1369,8 +1369,8 @@
                 "code_postal": 1000,
                 "latitude": 46.196824,
                 "longitude": 5.246578,
-                "ecroue_detenu": 290,
-                "densite_car": 0.967
+                "ecroue_detenu": 294,
+                "densite_car": 0.98
             }
         },
         {
@@ -1397,8 +1397,8 @@
                 "code_postal": 1000,
                 "latitude": 46.196824,
                 "longitude": 5.246578,
-                "ecroue_detenu": 543,
-                "densite_car": 1.547
+                "ecroue_detenu": 545,
+                "densite_car": 1.553
             }
         },
         {
@@ -1425,8 +1425,8 @@
                 "code_postal": 14000,
                 "latitude": 49.186547,
                 "longitude": -0.401155,
-                "ecroue_detenu": 5,
-                "densite_car": 0.833
+                "ecroue_detenu": "NC",
+                "densite_car": "NC"
             }
         },
         {
@@ -1453,8 +1453,8 @@
                 "code_postal": 14000,
                 "latitude": 49.186547,
                 "longitude": -0.401155,
-                "ecroue_detenu": 409,
-                "densite_car": 0.962
+                "ecroue_detenu": 406,
+                "densite_car": 0.955
             }
         },
         {
@@ -1481,8 +1481,8 @@
                 "code_postal": 2400,
                 "latitude": 49.050049,
                 "longitude": 3.397652,
-                "ecroue_detenu": 55,
-                "densite_car": 0.733
+                "ecroue_detenu": 58,
+                "densite_car": 0.773
             }
         },
         {
@@ -1509,8 +1509,8 @@
                 "code_postal": 2400,
                 "latitude": 49.050049,
                 "longitude": 3.397652,
-                "ecroue_detenu": 9,
-                "densite_car": 0.75
+                "ecroue_detenu": 7,
+                "densite_car": 0.583
             }
         },
         {
@@ -1537,8 +1537,8 @@
                 "code_postal": 36000,
                 "latitude": 46.811168,
                 "longitude": 1.695483,
-                "ecroue_detenu": 254,
-                "densite_car": 0.984
+                "ecroue_detenu": 249,
+                "densite_car": 0.965
             }
         },
         {
@@ -1565,8 +1565,8 @@
                 "code_postal": 36000,
                 "latitude": 46.811168,
                 "longitude": 1.695483,
-                "ecroue_detenu": 187,
-                "densite_car": 1.781
+                "ecroue_detenu": 186,
+                "densite_car": 1.771
             }
         },
         {
@@ -1593,8 +1593,8 @@
                 "code_postal": 97224,
                 "latitude": 14.577612,
                 "longitude": -60.986349,
-                "ecroue_detenu": 382,
-                "densite_car": 1.041
+                "ecroue_detenu": 391,
+                "densite_car": 1.065
             }
         },
         {
@@ -1621,8 +1621,8 @@
                 "code_postal": 97224,
                 "latitude": 14.577612,
                 "longitude": -60.986349,
-                "ecroue_detenu": 732,
-                "densite_car": 1.973
+                "ecroue_detenu": 731,
+                "densite_car": 1.97
             }
         },
         {
@@ -1649,8 +1649,8 @@
                 "code_postal": 98702,
                 "latitude": -17.556881,
                 "longitude": -149.589865,
-                "ecroue_detenu": 32,
-                "densite_car": 1.6
+                "ecroue_detenu": 27,
+                "densite_car": 1.35
             }
         },
         {
@@ -1677,8 +1677,8 @@
                 "code_postal": 98702,
                 "latitude": -17.556881,
                 "longitude": -149.589865,
-                "ecroue_detenu": 17,
-                "densite_car": 1.062
+                "ecroue_detenu": 20,
+                "densite_car": 1.25
             }
         },
         {
@@ -1705,8 +1705,8 @@
                 "code_postal": 98702,
                 "latitude": -17.556881,
                 "longitude": -149.589865,
-                "ecroue_detenu": 314,
-                "densite_car": 2.343
+                "ecroue_detenu": 325,
+                "densite_car": 2.425
             }
         },
         {
@@ -1733,8 +1733,8 @@
                 "code_postal": 94260,
                 "latitude": 48.762969,
                 "longitude": 2.31895,
-                "ecroue_detenu": 59,
-                "densite_car": 0.702
+                "ecroue_detenu": 56,
+                "densite_car": 0.667
             }
         },
         {
@@ -1761,8 +1761,8 @@
                 "code_postal": 94260,
                 "latitude": 48.762969,
                 "longitude": 2.31895,
-                "ecroue_detenu": 30,
-                "densite_car": 0.545
+                "ecroue_detenu": 9,
+                "densite_car": 0.164
             }
         },
         {
@@ -1789,8 +1789,8 @@
                 "code_postal": 94260,
                 "latitude": 48.762969,
                 "longitude": 2.31895,
-                "ecroue_detenu": 2239,
-                "densite_car": 1.673
+                "ecroue_detenu": 2221,
+                "densite_car": 1.66
             }
         },
         {
@@ -1817,8 +1817,8 @@
                 "code_postal": 38760,
                 "latitude": 45.09524,
                 "longitude": 5.679273,
-                "ecroue_detenu": 42,
-                "densite_car": 1.235
+                "ecroue_detenu": 34,
+                "densite_car": 1.0
             }
         },
         {
@@ -1845,8 +1845,8 @@
                 "code_postal": 38760,
                 "latitude": 45.09524,
                 "longitude": 5.679273,
-                "ecroue_detenu": 435,
-                "densite_car": 1.942
+                "ecroue_detenu": 432,
+                "densite_car": 1.929
             }
         },
         {
@@ -1873,8 +1873,8 @@
                 "code_postal": 65300,
                 "latitude": 43.108679,
                 "longitude": 0.376451,
-                "ecroue_detenu": 132,
-                "densite_car": 0.815
+                "ecroue_detenu": 129,
+                "densite_car": 0.796
             }
         },
         {
@@ -1901,8 +1901,8 @@
                 "code_postal": 65300,
                 "latitude": 43.108679,
                 "longitude": 0.376451,
-                "ecroue_detenu": "NC",
-                "densite_car": "NC"
+                "ecroue_detenu": 5,
+                "densite_car": 0.5
             }
         },
         {
@@ -1957,8 +1957,8 @@
                 "code_postal": 2000,
                 "latitude": 49.578962,
                 "longitude": 3.634673,
-                "ecroue_detenu": 361,
-                "densite_car": 1.91
+                "ecroue_detenu": 373,
+                "densite_car": 1.974
             }
         },
         {
@@ -2013,8 +2013,8 @@
                 "code_postal": 76430,
                 "latitude": 49.52231,
                 "longitude": 0.329522,
-                "ecroue_detenu": 369,
-                "densite_car": 1.242
+                "ecroue_detenu": 370,
+                "densite_car": 1.246
             }
         },
         {
@@ -2097,8 +2097,8 @@
                 "code_postal": 59112,
                 "latitude": 50.524678,
                 "longitude": 2.920542,
-                "ecroue_detenu": 224,
-                "densite_car": 1.072
+                "ecroue_detenu": 223,
+                "densite_car": 1.067
             }
         },
         {
@@ -2125,8 +2125,8 @@
                 "code_postal": 59112,
                 "latitude": 50.524678,
                 "longitude": 2.920542,
-                "ecroue_detenu": 734,
-                "densite_car": 1.711
+                "ecroue_detenu": 759,
+                "densite_car": 1.769
             }
         },
         {
@@ -2153,8 +2153,8 @@
                 "code_postal": 59000,
                 "latitude": 50.63291,
                 "longitude": 2.988126,
-                "ecroue_detenu": 39,
-                "densite_car": 1.114
+                "ecroue_detenu": 35,
+                "densite_car": 1.0
             }
         },
         {
@@ -2181,8 +2181,8 @@
                 "code_postal": 59000,
                 "latitude": 50.63291,
                 "longitude": 2.988126,
-                "ecroue_detenu": 991,
-                "densite_car": 1.706
+                "ecroue_detenu": 1022,
+                "densite_car": 1.759
             }
         },
         {
@@ -2237,8 +2237,8 @@
                 "code_postal": 62219,
                 "latitude": 50.73051,
                 "longitude": 2.235516,
-                "ecroue_detenu": 36,
-                "densite_car": 0.72
+                "ecroue_detenu": 45,
+                "densite_car": 0.9
             }
         },
         {
@@ -2293,8 +2293,8 @@
                 "code_postal": 62219,
                 "latitude": 50.73051,
                 "longitude": 2.235516,
-                "ecroue_detenu": 400,
-                "densite_car": 1.003
+                "ecroue_detenu": 399,
+                "densite_car": 1.0
             }
         },
         {
@@ -2321,8 +2321,8 @@
                 "code_postal": 62219,
                 "latitude": 50.73051,
                 "longitude": 2.235516,
-                "ecroue_detenu": 337,
-                "densite_car": 1.746
+                "ecroue_detenu": 332,
+                "densite_car": 1.72
             }
         },
         {
@@ -2349,8 +2349,8 @@
                 "code_postal": 56270,
                 "latitude": 47.72929,
                 "longitude": -3.416266,
-                "ecroue_detenu": 39,
-                "densite_car": 0.975
+                "ecroue_detenu": 40,
+                "densite_car": 1.0
             }
         },
         {
@@ -2377,8 +2377,8 @@
                 "code_postal": 56270,
                 "latitude": 47.72929,
                 "longitude": -3.416266,
-                "ecroue_detenu": 356,
-                "densite_car": 1.904
+                "ecroue_detenu": 366,
+                "densite_car": 1.957
             }
         },
         {
@@ -2405,8 +2405,8 @@
                 "code_postal": 97600,
                 "latitude": -12.773588,
                 "longitude": 45.220908,
-                "ecroue_detenu": 318,
-                "densite_car": 1.939
+                "ecroue_detenu": 315,
+                "densite_car": 1.921
             }
         },
         {
@@ -2433,8 +2433,8 @@
                 "code_postal": 97600,
                 "latitude": -12.773588,
                 "longitude": 45.220908,
-                "ecroue_detenu": 319,
-                "densite_car": 2.798
+                "ecroue_detenu": 295,
+                "densite_car": 2.588
             }
         },
         {
@@ -2461,8 +2461,8 @@
                 "code_postal": 13009,
                 "latitude": 43.235335,
                 "longitude": 5.410712,
-                "ecroue_detenu": 102,
-                "densite_car": 0.745
+                "ecroue_detenu": 119,
+                "densite_car": 0.869
             }
         },
         {
@@ -2489,8 +2489,8 @@
                 "code_postal": 13009,
                 "latitude": 43.235335,
                 "longitude": 5.410712,
-                "ecroue_detenu": 51,
-                "densite_car": 0.85
+                "ecroue_detenu": 52,
+                "densite_car": 0.867
             }
         },
         {
@@ -2517,8 +2517,8 @@
                 "code_postal": 13009,
                 "latitude": 43.235335,
                 "longitude": 5.410712,
-                "ecroue_detenu": 1729,
-                "densite_car": 1.38
+                "ecroue_detenu": 1756,
+                "densite_car": 1.401
             }
         },
         {
@@ -2545,8 +2545,8 @@
                 "code_postal": 59600,
                 "latitude": 50.285491,
                 "longitude": 3.99663,
-                "ecroue_detenu": 194,
-                "densite_car": 0.98
+                "ecroue_detenu": 191,
+                "densite_car": 0.965
             }
         },
         {
@@ -2573,8 +2573,8 @@
                 "code_postal": 59600,
                 "latitude": 50.285491,
                 "longitude": 3.99663,
-                "ecroue_detenu": 317,
-                "densite_car": 1.585
+                "ecroue_detenu": 328,
+                "densite_car": 1.64
             }
         },
         {
@@ -2601,8 +2601,8 @@
                 "code_postal": 77124,
                 "latitude": 48.958017,
                 "longitude": 2.864135,
-                "ecroue_detenu": 183,
-                "densite_car": 0.958
+                "ecroue_detenu": 186,
+                "densite_car": 0.974
             }
         },
         {
@@ -2629,8 +2629,8 @@
                 "code_postal": 77124,
                 "latitude": 48.958017,
                 "longitude": 2.864135,
-                "ecroue_detenu": 791,
-                "densite_car": 2.06
+                "ecroue_detenu": 800,
+                "densite_car": 2.083
             }
         },
         {
@@ -2657,8 +2657,8 @@
                 "code_postal": 77124,
                 "latitude": 48.958017,
                 "longitude": 2.864135,
-                "ecroue_detenu": 199,
-                "densite_car": 1.106
+                "ecroue_detenu": 203,
+                "densite_car": 1.128
             }
         },
         {
@@ -2685,8 +2685,8 @@
                 "code_postal": 57070,
                 "latitude": 49.100115,
                 "longitude": 6.209556,
-                "ecroue_detenu": 65,
-                "densite_car": 1.383
+                "ecroue_detenu": 73,
+                "densite_car": 1.553
             }
         },
         {
@@ -2713,8 +2713,8 @@
                 "code_postal": 57070,
                 "latitude": 49.100115,
                 "longitude": 6.209556,
-                "ecroue_detenu": 622,
-                "densite_car": 1.543
+                "ecroue_detenu": 619,
+                "densite_car": 1.536
             }
         },
         {
@@ -2741,8 +2741,8 @@
                 "code_postal": 40000,
                 "latitude": 43.89709,
                 "longitude": -0.461212,
-                "ecroue_detenu": 5,
-                "densite_car": 0.357
+                "ecroue_detenu": 7,
+                "densite_car": 0.5
             }
         },
         {
@@ -2797,8 +2797,8 @@
                 "code_postal": 40000,
                 "latitude": 43.89709,
                 "longitude": -0.461212,
-                "ecroue_detenu": 569,
-                "densite_car": 1.55
+                "ecroue_detenu": 591,
+                "densite_car": 1.61
             }
         },
         {
@@ -2853,8 +2853,8 @@
                 "code_postal": 3400,
                 "latitude": 46.563483,
                 "longitude": 3.359841,
-                "ecroue_detenu": 264,
-                "densite_car": 1.808
+                "ecroue_detenu": 267,
+                "densite_car": 1.829
             }
         },
         {
@@ -2881,8 +2881,8 @@
                 "code_postal": 68460,
                 "latitude": 47.756828,
                 "longitude": 7.262474,
-                "ecroue_detenu": 28,
-                "densite_car": 0.549
+                "ecroue_detenu": 35,
+                "densite_car": 0.686
             }
         },
         {
@@ -2909,8 +2909,8 @@
                 "code_postal": 68460,
                 "latitude": 47.756828,
                 "longitude": 7.262474,
-                "ecroue_detenu": 180,
-                "densite_car": 1.0
+                "ecroue_detenu": 178,
+                "densite_car": 0.989
             }
         },
         {
@@ -2937,8 +2937,8 @@
                 "code_postal": 68460,
                 "latitude": 47.756828,
                 "longitude": 7.262474,
-                "ecroue_detenu": 614,
-                "densite_car": 1.754
+                "ecroue_detenu": 591,
+                "densite_car": 1.689
             }
         },
         {
@@ -2965,8 +2965,8 @@
                 "code_postal": 92000,
                 "latitude": 48.905421,
                 "longitude": 2.206781,
-                "ecroue_detenu": 130,
-                "densite_car": 1.413
+                "ecroue_detenu": 134,
+                "densite_car": 1.457
             }
         },
         {
@@ -2993,8 +2993,8 @@
                 "code_postal": 92000,
                 "latitude": 48.905421,
                 "longitude": 2.206781,
-                "ecroue_detenu": 1193,
-                "densite_car": 1.998
+                "ecroue_detenu": 1178,
+                "densite_car": 1.973
             }
         },
         {
@@ -3041,7 +3041,7 @@
                 "etablissement": "CP NANTES",
                 "quartier": "CD/QCD",
                 "capacite_norme": "524",
-                "capacite_oper": "524",
+                "capacite_oper": "510",
                 "lc_disp": "DISP RENNES",
                 "cd_etablissement": 912154,
                 "adresse_etab": "68 Boulevard Albert-Einstein",
@@ -3049,8 +3049,8 @@
                 "code_postal": 44300,
                 "latitude": 47.264111,
                 "longitude": -1.570606,
-                "ecroue_detenu": 502,
-                "densite_car": 0.958
+                "ecroue_detenu": 510,
+                "densite_car": 1.0
             }
         },
         {
@@ -3077,8 +3077,8 @@
                 "code_postal": 44300,
                 "latitude": 47.264111,
                 "longitude": -1.570606,
-                "ecroue_detenu": 969,
-                "densite_car": 1.907
+                "ecroue_detenu": 966,
+                "densite_car": 1.902
             }
         },
         {
@@ -3105,8 +3105,8 @@
                 "code_postal": 98800,
                 "latitude": -22.271069,
                 "longitude": 166.425837,
-                "ecroue_detenu": 255,
-                "densite_car": 1.314
+                "ecroue_detenu": 246,
+                "densite_car": 1.268
             }
         },
         {
@@ -3133,8 +3133,8 @@
                 "code_postal": 98800,
                 "latitude": -22.271069,
                 "longitude": 166.425837,
-                "ecroue_detenu": 310,
-                "densite_car": 1.582
+                "ecroue_detenu": 323,
+                "densite_car": 1.648
             }
         },
         {
@@ -3161,8 +3161,8 @@
                 "code_postal": 45770,
                 "latitude": 47.959554,
                 "longitude": 1.874293,
-                "ecroue_detenu": 51,
-                "densite_car": 0.85
+                "ecroue_detenu": 44,
+                "densite_car": 0.733
             }
         },
         {
@@ -3189,8 +3189,8 @@
                 "code_postal": 45770,
                 "latitude": 47.959554,
                 "longitude": 1.874293,
-                "ecroue_detenu": 192,
-                "densite_car": 0.885
+                "ecroue_detenu": 200,
+                "densite_car": 0.922
             }
         },
         {
@@ -3217,8 +3217,8 @@
                 "code_postal": 45770,
                 "latitude": 47.959554,
                 "longitude": 1.874293,
-                "ecroue_detenu": 845,
-                "densite_car": 1.571
+                "ecroue_detenu": 862,
+                "densite_car": 1.602
             }
         },
         {
@@ -3245,8 +3245,8 @@
                 "code_postal": 75014,
                 "latitude": 48.833882,
                 "longitude": 2.341294,
-                "ecroue_detenu": 163,
-                "densite_car": 1.63
+                "ecroue_detenu": 155,
+                "densite_car": 1.55
             }
         },
         {
@@ -3273,8 +3273,8 @@
                 "code_postal": 75014,
                 "latitude": 48.833882,
                 "longitude": 2.341294,
-                "ecroue_detenu": 1299,
-                "densite_car": 1.977
+                "ecroue_detenu": 1320,
+                "densite_car": 2.009
             }
         },
         {
@@ -3301,8 +3301,8 @@
                 "code_postal": 66000,
                 "latitude": 42.68018,
                 "longitude": 2.868737,
-                "ecroue_detenu": 320,
-                "densite_car": 0.961
+                "ecroue_detenu": 321,
+                "densite_car": 0.964
             }
         },
         {
@@ -3329,8 +3329,8 @@
                 "code_postal": 66000,
                 "latitude": 42.68018,
                 "longitude": 2.868737,
-                "ecroue_detenu": 436,
-                "densite_car": 2.224
+                "ecroue_detenu": 432,
+                "densite_car": 2.204
             }
         },
         {
@@ -3357,8 +3357,8 @@
                 "code_postal": 86370,
                 "latitude": 46.382893,
                 "longitude": 0.230653,
-                "ecroue_detenu": 24,
-                "densite_car": 0.8
+                "ecroue_detenu": 25,
+                "densite_car": 0.833
             }
         },
         {
@@ -3385,8 +3385,8 @@
                 "code_postal": 86370,
                 "latitude": 46.382893,
                 "longitude": 0.230653,
-                "ecroue_detenu": 261,
-                "densite_car": 0.963
+                "ecroue_detenu": 264,
+                "densite_car": 0.974
             }
         },
         {
@@ -3413,8 +3413,8 @@
                 "code_postal": 86370,
                 "latitude": 46.382893,
                 "longitude": 0.230653,
-                "ecroue_detenu": 608,
-                "densite_car": 1.993
+                "ecroue_detenu": 605,
+                "densite_car": 1.984
             }
         },
         {
@@ -3441,8 +3441,8 @@
                 "code_postal": 97354,
                 "latitude": 4.878222,
                 "longitude": -52.296073,
-                "ecroue_detenu": 457,
-                "densite_car": 1.332
+                "ecroue_detenu": 464,
+                "densite_car": 1.353
             }
         },
         {
@@ -3469,8 +3469,8 @@
                 "code_postal": 97354,
                 "latitude": 4.878222,
                 "longitude": -52.296073,
-                "ecroue_detenu": 523,
-                "densite_car": 1.916
+                "ecroue_detenu": 547,
+                "densite_car": 2.004
             }
         },
         {
@@ -3497,8 +3497,8 @@
                 "code_postal": 35000,
                 "latitude": 48.101865,
                 "longitude": -1.674662,
-                "ecroue_detenu": 61,
-                "densite_car": 1.743
+                "ecroue_detenu": 56,
+                "densite_car": 1.6
             }
         },
         {
@@ -3525,8 +3525,8 @@
                 "code_postal": 35000,
                 "latitude": 48.101865,
                 "longitude": -1.674662,
-                "ecroue_detenu": 175,
-                "densite_car": 1.006
+                "ecroue_detenu": 173,
+                "densite_car": 0.994
             }
         },
         {
@@ -3553,8 +3553,8 @@
                 "code_postal": 35132,
                 "latitude": 48.107416,
                 "longitude": -1.739228,
-                "ecroue_detenu": 22,
-                "densite_car": 0.846
+                "ecroue_detenu": 21,
+                "densite_car": 0.808
             }
         },
         {
@@ -3581,8 +3581,8 @@
                 "code_postal": 35132,
                 "latitude": 48.107416,
                 "longitude": -1.739228,
-                "ecroue_detenu": 197,
-                "densite_car": 0.943
+                "ecroue_detenu": 200,
+                "densite_car": 0.957
             }
         },
         {
@@ -3609,8 +3609,8 @@
                 "code_postal": 35132,
                 "latitude": 48.107416,
                 "longitude": -1.739228,
-                "ecroue_detenu": 809,
-                "densite_car": 1.696
+                "ecroue_detenu": 838,
+                "densite_car": 1.757
             }
         },
         {
@@ -3637,8 +3637,8 @@
                 "code_postal": 63200,
                 "latitude": 45.893887,
                 "longitude": 3.127211,
-                "ecroue_detenu": 16,
-                "densite_car": 0.8
+                "ecroue_detenu": 12,
+                "densite_car": 0.6
             }
         },
         {
@@ -3665,8 +3665,8 @@
                 "code_postal": 63200,
                 "latitude": 45.893887,
                 "longitude": 3.127211,
-                "ecroue_detenu": 159,
-                "densite_car": 0.97
+                "ecroue_detenu": 157,
+                "densite_car": 0.957
             }
         },
         {
@@ -3693,8 +3693,8 @@
                 "code_postal": 63200,
                 "latitude": 45.893887,
                 "longitude": 3.127211,
-                "ecroue_detenu": 612,
-                "densite_car": 1.594
+                "ecroue_detenu": 621,
+                "densite_car": 1.617
             }
         },
         {
@@ -3721,8 +3721,8 @@
                 "code_postal": 97490,
                 "latitude": -20.918211,
                 "longitude": 55.502739,
-                "ecroue_detenu": 35,
-                "densite_car": 2.059
+                "ecroue_detenu": 33,
+                "densite_car": 1.941
             }
         },
         {
@@ -3749,8 +3749,8 @@
                 "code_postal": 97490,
                 "latitude": -20.918211,
                 "longitude": 55.502739,
-                "ecroue_detenu": 955,
-                "densite_car": 1.711
+                "ecroue_detenu": 976,
+                "densite_car": 1.749
             }
         },
         {
@@ -3777,8 +3777,8 @@
                 "code_postal": 42350,
                 "latitude": 45.473132,
                 "longitude": 4.416496,
-                "ecroue_detenu": 33,
-                "densite_car": 0.825
+                "ecroue_detenu": 32,
+                "densite_car": 0.8
             }
         },
         {
@@ -3805,8 +3805,8 @@
                 "code_postal": 42350,
                 "latitude": 45.473132,
                 "longitude": 4.416496,
-                "ecroue_detenu": 482,
-                "densite_car": 1.679
+                "ecroue_detenu": 488,
+                "densite_car": 1.7
             }
         },
         {
@@ -3889,8 +3889,8 @@
                 "code_postal": 38070,
                 "latitude": 45.660026,
                 "longitude": 5.126401,
-                "ecroue_detenu": 181,
-                "densite_car": 0.938
+                "ecroue_detenu": 180,
+                "densite_car": 0.933
             }
         },
         {
@@ -3917,8 +3917,8 @@
                 "code_postal": 38070,
                 "latitude": 45.660026,
                 "longitude": 5.126401,
-                "ecroue_detenu": 474,
-                "densite_car": 1.983
+                "ecroue_detenu": 498,
+                "densite_car": 2.084
             }
         },
         {
@@ -4001,8 +4001,8 @@
                 "code_postal": 77550,
                 "latitude": 48.597522,
                 "longitude": 2.595843,
-                "ecroue_detenu": 36,
-                "densite_car": 0.692
+                "ecroue_detenu": 26,
+                "densite_car": 0.5
             }
         },
         {
@@ -4029,8 +4029,8 @@
                 "code_postal": 77550,
                 "latitude": 48.597522,
                 "longitude": 2.595843,
-                "ecroue_detenu": 682,
-                "densite_car": 0.962
+                "ecroue_detenu": 678,
+                "densite_car": 0.956
             }
         },
         {
@@ -4113,8 +4113,8 @@
                 "code_postal": 83210,
                 "latitude": 43.158697,
                 "longitude": 6.064818,
-                "ecroue_detenu": 184,
-                "densite_car": 0.963
+                "ecroue_detenu": 185,
+                "densite_car": 0.969
             }
         },
         {
@@ -4141,8 +4141,8 @@
                 "code_postal": 83210,
                 "latitude": 43.158697,
                 "longitude": 6.064818,
-                "ecroue_detenu": 646,
-                "densite_car": 1.64
+                "ecroue_detenu": 627,
+                "densite_car": 1.591
             }
         },
         {
@@ -4169,8 +4169,8 @@
                 "code_postal": 31600,
                 "latitude": 43.490487,
                 "longitude": 1.319009,
-                "ecroue_detenu": 45,
-                "densite_car": 0.437
+                "ecroue_detenu": 57,
+                "densite_car": 0.553
             }
         },
         {
@@ -4197,8 +4197,8 @@
                 "code_postal": 31600,
                 "latitude": 43.490487,
                 "longitude": 1.319009,
-                "ecroue_detenu": 1251,
-                "densite_car": 2.157
+                "ecroue_detenu": 1267,
+                "densite_car": 2.184
             }
         },
         {
@@ -4253,8 +4253,8 @@
                 "code_postal": 26000,
                 "latitude": 44.921512,
                 "longitude": 4.8888490000000004,
-                "ecroue_detenu": 40,
-                "densite_car": 0.755
+                "ecroue_detenu": 41,
+                "densite_car": 0.774
             }
         },
         {
@@ -4281,8 +4281,8 @@
                 "code_postal": 26000,
                 "latitude": 44.921512,
                 "longitude": 4.8888490000000004,
-                "ecroue_detenu": 550,
-                "densite_car": 1.599
+                "ecroue_detenu": 560,
+                "densite_car": 1.628
             }
         },
         {
@@ -4309,8 +4309,8 @@
                 "code_postal": 71240,
                 "latitude": 46.709104,
                 "longitude": 4.871025,
-                "ecroue_detenu": 186,
-                "densite_car": 0.984
+                "ecroue_detenu": 187,
+                "densite_car": 0.989
             }
         },
         {
@@ -4337,8 +4337,8 @@
                 "code_postal": 71240,
                 "latitude": 46.709104,
                 "longitude": 4.871025,
-                "ecroue_detenu": 394,
-                "densite_car": 1.903
+                "ecroue_detenu": 401,
+                "densite_car": 1.937
             }
         },
         {
@@ -4393,8 +4393,8 @@
                 "code_postal": 69400,
                 "latitude": 45.998561,
                 "longitude": 4.726168,
-                "ecroue_detenu": 40,
-                "densite_car": 1.026
+                "ecroue_detenu": 34,
+                "densite_car": 0.872
             }
         },
         {
@@ -4421,8 +4421,8 @@
                 "code_postal": 69400,
                 "latitude": 45.998561,
                 "longitude": 4.726168,
-                "ecroue_detenu": 874,
-                "densite_car": 1.459
+                "ecroue_detenu": 889,
+                "densite_car": 1.484
             }
         },
         {
@@ -4449,8 +4449,8 @@
                 "code_postal": 34750,
                 "latitude": 43.547483,
                 "longitude": 3.830312,
-                "ecroue_detenu": 23,
-                "densite_car": 0.958
+                "ecroue_detenu": 25,
+                "densite_car": 1.042
             }
         },
         {
@@ -4477,8 +4477,8 @@
                 "code_postal": 34750,
                 "latitude": 43.547483,
                 "longitude": 3.830312,
-                "ecroue_detenu": 1067,
-                "densite_car": 1.758
+                "ecroue_detenu": 1094,
+                "densite_car": 1.802
             }
         },
         {
@@ -4505,8 +4505,8 @@
                 "code_postal": 25000,
                 "latitude": 47.250852,
                 "longitude": 6.022334,
-                "ecroue_detenu": 23,
-                "densite_car": 0.92
+                "ecroue_detenu": 21,
+                "densite_car": 0.84
             }
         },
         {
@@ -4533,8 +4533,8 @@
                 "code_postal": 91100,
                 "latitude": 48.610708,
                 "longitude": 2.478886,
-                "ecroue_detenu": 90,
-                "densite_car": 1.125
+                "ecroue_detenu": 98,
+                "densite_car": 1.225
             }
         },
         {
@@ -4561,8 +4561,8 @@
                 "code_postal": 93220,
                 "latitude": 48.881029,
                 "longitude": 2.534137,
-                "ecroue_detenu": 111,
-                "densite_car": 2.265
+                "ecroue_detenu": 97,
+                "densite_car": 1.98
             }
         },
         {
@@ -4589,8 +4589,8 @@
                 "code_postal": 69007,
                 "latitude": 45.740825,
                 "longitude": 4.844965,
-                "ecroue_detenu": 119,
-                "densite_car": 1.026
+                "ecroue_detenu": 111,
+                "densite_car": 0.957
             }
         },
         {
@@ -4617,8 +4617,8 @@
                 "code_postal": 54320,
                 "latitude": 48.713397,
                 "longitude": 6.155262,
-                "ecroue_detenu": 34,
-                "densite_car": 0.654
+                "ecroue_detenu": 29,
+                "densite_car": 0.558
             }
         },
         {
@@ -4645,8 +4645,8 @@
                 "code_postal": 77000,
                 "latitude": 48.543078,
                 "longitude": 2.658274,
-                "ecroue_detenu": 48,
-                "densite_car": 1.091
+                "ecroue_detenu": 54,
+                "densite_car": 1.227
             }
         },
         {
@@ -4693,7 +4693,7 @@
                 "etablissement": "CSL SOUFFELWEYERSHEIM",
                 "quartier": "CSL/QSL",
                 "capacite_norme": "53",
-                "capacite_oper": "30",
+                "capacite_oper": "53",
                 "lc_disp": "DISP STRASBOURG",
                 "cd_etablissement": 101712,
                 "adresse_etab": "8 Route de Bischwiller",
@@ -4701,8 +4701,8 @@
                 "code_postal": 67460,
                 "latitude": 48.629029,
                 "longitude": 7.753892,
-                "ecroue_detenu": 25,
-                "densite_car": 0.833
+                "ecroue_detenu": 33,
+                "densite_car": 0.623
             }
         },
         {
@@ -4729,8 +4729,8 @@
                 "code_postal": 54150,
                 "latitude": 49.251672,
                 "longitude": 5.939155,
-                "ecroue_detenu": 21,
-                "densite_car": 0.84
+                "ecroue_detenu": 20,
+                "densite_car": 0.8
             }
         },
         {
@@ -4757,8 +4757,8 @@
                 "code_postal": 81500,
                 "latitude": 43.707157,
                 "longitude": 1.804836,
-                "ecroue_detenu": 57,
-                "densite_car": 0.983
+                "ecroue_detenu": 56,
+                "densite_car": 0.966
             }
         },
         {
@@ -4813,8 +4813,8 @@
                 "code_postal": 44700,
                 "latitude": 47.266438,
                 "longitude": -1.592046,
-                "ecroue_detenu": 52,
-                "densite_car": 0.897
+                "ecroue_detenu": 51,
+                "densite_car": 0.879
             }
         },
         {
@@ -4841,8 +4841,8 @@
                 "code_postal": 78440,
                 "latitude": 48.988417,
                 "longitude": 1.76776,
-                "ecroue_detenu": 48,
-                "densite_car": 0.814
+                "ecroue_detenu": 45,
+                "densite_car": 0.763
             }
         },
         {
@@ -4869,8 +4869,8 @@
                 "code_postal": 59920,
                 "latitude": 50.399529,
                 "longitude": 3.658366,
-                "ecroue_detenu": 29,
-                "densite_car": 0.492
+                "ecroue_detenu": 36,
+                "densite_car": 0.61
             }
         },
         {
@@ -4897,8 +4897,8 @@
                 "code_postal": 69330,
                 "latitude": 45.761282,
                 "longitude": 4.987349,
-                "ecroue_detenu": 57,
-                "densite_car": 0.966
+                "ecroue_detenu": 55,
+                "densite_car": 0.932
             }
         },
         {
@@ -4925,8 +4925,8 @@
                 "code_postal": 47000,
                 "latitude": 44.1992,
                 "longitude": 0.617271,
-                "ecroue_detenu": 250,
-                "densite_car": 1.748
+                "ecroue_detenu": 252,
+                "densite_car": 1.762
             }
         },
         {
@@ -4953,8 +4953,8 @@
                 "code_postal": 20000,
                 "latitude": 41.925991,
                 "longitude": 8.736865,
-                "ecroue_detenu": 81,
-                "densite_car": 1.528
+                "ecroue_detenu": 79,
+                "densite_car": 1.491
             }
         },
         {
@@ -4981,8 +4981,8 @@
                 "code_postal": 81000,
                 "latitude": 43.917464,
                 "longitude": 2.124288,
-                "ecroue_detenu": 209,
-                "densite_car": 1.99
+                "ecroue_detenu": 215,
+                "densite_car": 2.048
             }
         },
         {
@@ -5009,8 +5009,8 @@
                 "code_postal": 80080,
                 "latitude": 49.908525,
                 "longitude": 2.323886,
-                "ecroue_detenu": 604,
-                "densite_car": 2.254
+                "ecroue_detenu": 631,
+                "densite_car": 2.354
             }
         },
         {
@@ -5037,8 +5037,8 @@
                 "code_postal": 49100,
                 "latitude": 47.474326,
                 "longitude": -0.541484,
-                "ecroue_detenu": 516,
-                "densite_car": 1.94
+                "ecroue_detenu": 530,
+                "densite_car": 1.992
             }
         },
         {
@@ -5065,8 +5065,8 @@
                 "code_postal": 16000,
                 "latitude": 45.650412,
                 "longitude": 0.166014,
-                "ecroue_detenu": 317,
-                "densite_car": 1.343
+                "ecroue_detenu": 327,
+                "densite_car": 1.386
             }
         },
         {
@@ -5093,8 +5093,8 @@
                 "code_postal": 62000,
                 "latitude": 50.293004,
                 "longitude": 2.760478,
-                "ecroue_detenu": 263,
-                "densite_car": 1.363
+                "ecroue_detenu": 262,
+                "densite_car": 1.358
             }
         },
         {
@@ -5121,8 +5121,8 @@
                 "code_postal": 15000,
                 "latitude": 44.928526,
                 "longitude": 2.442519,
-                "ecroue_detenu": 97,
-                "densite_car": 1.347
+                "ecroue_detenu": 99,
+                "densite_car": 1.375
             }
         },
         {
@@ -5149,8 +5149,8 @@
                 "code_postal": 89000,
                 "latitude": 47.80322,
                 "longitude": 3.566634,
-                "ecroue_detenu": 229,
-                "densite_car": 2.267
+                "ecroue_detenu": 221,
+                "densite_car": 2.188
             }
         },
         {
@@ -5177,8 +5177,8 @@
                 "code_postal": 55000,
                 "latitude": 48.768561,
                 "longitude": 5.159496,
-                "ecroue_detenu": 93,
-                "densite_car": 1.162
+                "ecroue_detenu": 98,
+                "densite_car": 1.225
             }
         },
         {
@@ -5205,8 +5205,8 @@
                 "code_postal": 97100,
                 "latitude": 15.992685,
                 "longitude": -61.72761,
-                "ecroue_detenu": 269,
-                "densite_car": 1.921
+                "ecroue_detenu": 267,
+                "densite_car": 1.907
             }
         },
         {
@@ -5233,8 +5233,8 @@
                 "code_postal": 64100,
                 "latitude": 43.491757,
                 "longitude": -1.4633,
-                "ecroue_detenu": 167,
-                "densite_car": 2.227
+                "ecroue_detenu": 163,
+                "densite_car": 2.173
             }
         },
         {
@@ -5289,8 +5289,8 @@
                 "code_postal": 25000,
                 "latitude": 47.236535,
                 "longitude": 6.007063,
-                "ecroue_detenu": 459,
-                "densite_car": 1.663
+                "ecroue_detenu": 458,
+                "densite_car": 1.659
             }
         },
         {
@@ -5317,8 +5317,8 @@
                 "code_postal": 62400,
                 "latitude": 50.53649,
                 "longitude": 2.636907,
-                "ecroue_detenu": 392,
-                "densite_car": 2.215
+                "ecroue_detenu": 377,
+                "densite_car": 2.13
             }
         },
         {
@@ -5345,8 +5345,8 @@
                 "code_postal": 41000,
                 "latitude": 47.597369,
                 "longitude": 1.338519,
-                "ecroue_detenu": 197,
-                "densite_car": 1.728
+                "ecroue_detenu": 200,
+                "densite_car": 1.754
             }
         },
         {
@@ -5373,8 +5373,8 @@
                 "code_postal": 74130,
                 "latitude": 46.077032,
                 "longitude": 6.408097,
-                "ecroue_detenu": 272,
-                "densite_car": 1.455
+                "ecroue_detenu": 282,
+                "densite_car": 1.508
             }
         },
         {
@@ -5401,8 +5401,8 @@
                 "code_postal": 18000,
                 "latitude": 47.095117,
                 "longitude": 2.399732,
-                "ecroue_detenu": 198,
-                "densite_car": 1.817
+                "ecroue_detenu": 194,
+                "densite_car": 1.78
             }
         },
         {
@@ -5429,8 +5429,8 @@
                 "code_postal": 29200,
                 "latitude": 48.420633,
                 "longitude": -4.477026,
-                "ecroue_detenu": 478,
-                "densite_car": 1.882
+                "ecroue_detenu": 494,
+                "densite_car": 1.945
             }
         },
         {
@@ -5457,8 +5457,8 @@
                 "code_postal": 11000,
                 "latitude": 43.210794,
                 "longitude": 2.3626,
-                "ecroue_detenu": 164,
-                "densite_car": 2.562
+                "ecroue_detenu": 157,
+                "densite_car": 2.453
             }
         },
         {
@@ -5485,8 +5485,8 @@
                 "code_postal": 51000,
                 "latitude": 48.962328,
                 "longitude": 4.367514,
-                "ecroue_detenu": 344,
-                "densite_car": 1.117
+                "ecroue_detenu": 341,
+                "densite_car": 1.107
             }
         },
         {
@@ -5513,8 +5513,8 @@
                 "code_postal": 73000,
                 "latitude": 45.574937,
                 "longitude": 5.905952,
-                "ecroue_detenu": 178,
-                "densite_car": 1.978
+                "ecroue_detenu": 166,
+                "densite_car": 1.844
             }
         },
         {
@@ -5569,8 +5569,8 @@
                 "code_postal": 52000,
                 "latitude": 48.106625,
                 "longitude": 5.132359,
-                "ecroue_detenu": 111,
-                "densite_car": 1.423
+                "ecroue_detenu": 107,
+                "densite_car": 1.372
             }
         },
         {
@@ -5597,8 +5597,8 @@
                 "code_postal": 50100,
                 "latitude": 49.63719,
                 "longitude": -1.623758,
-                "ecroue_detenu": 63,
-                "densite_car": 1.37
+                "ecroue_detenu": 55,
+                "densite_car": 1.196
             }
         },
         {
@@ -5625,8 +5625,8 @@
                 "code_postal": 50200,
                 "latitude": 49.050814,
                 "longitude": -1.441731,
-                "ecroue_detenu": 66,
-                "densite_car": 1.375
+                "ecroue_detenu": 73,
+                "densite_car": 1.521
             }
         },
         {
@@ -5653,8 +5653,8 @@
                 "code_postal": 4000,
                 "latitude": 44.092318,
                 "longitude": 6.235722,
-                "ecroue_detenu": 39,
-                "densite_car": 1.114
+                "ecroue_detenu": 55,
+                "densite_car": 1.571
             }
         },
         {
@@ -5681,8 +5681,8 @@
                 "code_postal": 21000,
                 "latitude": 47.312594,
                 "longitude": 5.050265,
-                "ecroue_detenu": 324,
-                "densite_car": 1.751
+                "ecroue_detenu": 345,
+                "densite_car": 1.865
             }
         },
         {
@@ -5709,8 +5709,8 @@
                 "code_postal": 59500,
                 "latitude": 50.376562,
                 "longitude": 3.059927,
-                "ecroue_detenu": 495,
-                "densite_car": 1.854
+                "ecroue_detenu": 500,
+                "densite_car": 1.873
             }
         },
         {
@@ -5737,8 +5737,8 @@
                 "code_postal": 83300,
                 "latitude": 43.517104,
                 "longitude": 6.429946,
-                "ecroue_detenu": 734,
-                "densite_car": 1.456
+                "ecroue_detenu": 746,
+                "densite_car": 1.48
             }
         },
         {
@@ -5765,8 +5765,8 @@
                 "code_postal": 59140,
                 "latitude": 51.039868,
                 "longitude": 2.380742,
-                "ecroue_detenu": 125,
-                "densite_car": 1.19
+                "ecroue_detenu": 122,
+                "densite_car": 1.162
             }
         },
         {
@@ -5793,8 +5793,8 @@
                 "code_postal": 88000,
                 "latitude": 48.186786,
                 "longitude": 6.466987,
-                "ecroue_detenu": 332,
-                "densite_car": 1.092
+                "ecroue_detenu": 330,
+                "densite_car": 1.086
             }
         },
         {
@@ -5821,8 +5821,8 @@
                 "code_postal": 27000,
                 "latitude": 49.015827,
                 "longitude": 1.167123,
-                "ecroue_detenu": 332,
-                "densite_car": 2.049
+                "ecroue_detenu": 322,
+                "densite_car": 1.988
             }
         },
         {
@@ -5849,8 +5849,8 @@
                 "code_postal": 91700,
                 "latitude": 48.640436,
                 "longitude": 2.373158,
-                "ecroue_detenu": 5080,
-                "densite_car": 1.799
+                "ecroue_detenu": 5082,
+                "densite_car": 1.8
             }
         },
         {
@@ -5877,8 +5877,8 @@
                 "code_postal": 9000,
                 "latitude": 42.959998,
                 "longitude": 1.609733,
-                "ecroue_detenu": 144,
-                "densite_car": 2.215
+                "ecroue_detenu": 145,
+                "densite_car": 2.231
             }
         },
         {
@@ -5905,8 +5905,8 @@
                 "code_postal": 85200,
                 "latitude": 46.467862,
                 "longitude": -0.812894,
-                "ecroue_detenu": 90,
-                "densite_car": 2.308
+                "ecroue_detenu": 89,
+                "densite_car": 2.282
             }
         },
         {
@@ -5933,8 +5933,8 @@
                 "code_postal": 5000,
                 "latitude": 44.559856,
                 "longitude": 6.077592,
-                "ecroue_detenu": 51,
-                "densite_car": 1.342
+                "ecroue_detenu": 44,
+                "densite_car": 1.158
             }
         },
         {
@@ -5961,8 +5961,8 @@
                 "code_postal": 6130,
                 "latitude": 43.674617,
                 "longitude": 6.90668,
-                "ecroue_detenu": 770,
-                "densite_car": 1.341
+                "ecroue_detenu": 800,
+                "densite_car": 1.394
             }
         },
         {
@@ -5989,8 +5989,8 @@
                 "code_postal": 23000,
                 "latitude": 46.170166,
                 "longitude": 1.872077,
-                "ecroue_detenu": 48,
-                "densite_car": 1.5
+                "ecroue_detenu": 50,
+                "densite_car": 1.562
             }
         },
         {
@@ -6017,8 +6017,8 @@
                 "code_postal": 85000,
                 "latitude": 46.675471,
                 "longitude": -1.426004,
-                "ecroue_detenu": 46,
-                "densite_car": 2.706
+                "ecroue_detenu": "NC",
+                "densite_car": "NC"
             }
         },
         {
@@ -6045,8 +6045,8 @@
                 "code_postal": 53000,
                 "latitude": 48.066178,
                 "longitude": -0.783254,
-                "ecroue_detenu": 103,
-                "densite_car": 1.839
+                "ecroue_detenu": 114,
+                "densite_car": 2.036
             }
         },
         {
@@ -6073,8 +6073,8 @@
                 "code_postal": 72190,
                 "latitude": 48.043002,
                 "longitude": 0.2197,
-                "ecroue_detenu": 665,
-                "densite_car": 1.667
+                "ecroue_detenu": 677,
+                "densite_car": 1.697
             }
         },
         {
@@ -6101,8 +6101,8 @@
                 "code_postal": 43000,
                 "latitude": 45.043812,
                 "longitude": 3.896001,
-                "ecroue_detenu": 91,
-                "densite_car": 2.528
+                "ecroue_detenu": 89,
+                "densite_car": 2.472
             }
         },
         {
@@ -6129,8 +6129,8 @@
                 "code_postal": 87000,
                 "latitude": 45.831609,
                 "longitude": 1.25168,
-                "ecroue_detenu": 179,
-                "densite_car": 2.157
+                "ecroue_detenu": 189,
+                "densite_car": 2.277
             }
         },
         {
@@ -6157,8 +6157,8 @@
                 "code_postal": 39000,
                 "latitude": 46.673492,
                 "longitude": 5.557208,
-                "ecroue_detenu": 76,
-                "densite_car": 1.949
+                "ecroue_detenu": 80,
+                "densite_car": 2.051
             }
         },
         {
@@ -6185,8 +6185,8 @@
                 "code_postal": 69960,
                 "latitude": 45.677196,
                 "longitude": 4.932738,
-                "ecroue_detenu": 1346,
-                "densite_car": 1.985
+                "ecroue_detenu": 1322,
+                "densite_car": 1.95
             }
         },
         {
@@ -6241,8 +6241,8 @@
                 "code_postal": 82000,
                 "latitude": 44.008105,
                 "longitude": 1.362689,
-                "ecroue_detenu": 274,
-                "densite_car": 1.93
+                "ecroue_detenu": 275,
+                "densite_car": 1.937
             }
         },
         {
@@ -6269,8 +6269,8 @@
                 "code_postal": 25200,
                 "latitude": 47.513971,
                 "longitude": 6.796732,
-                "ecroue_detenu": 63,
-                "densite_car": 1.537
+                "ecroue_detenu": 71,
+                "densite_car": 1.732
             }
         },
         {
@@ -6297,8 +6297,8 @@
                 "code_postal": 3100,
                 "latitude": 46.340314,
                 "longitude": 2.604213,
-                "ecroue_detenu": 40,
-                "densite_car": 1.818
+                "ecroue_detenu": 38,
+                "densite_car": 1.727
             }
         },
         {
@@ -6325,8 +6325,8 @@
                 "code_postal": 54320,
                 "latitude": 48.70697,
                 "longitude": 6.154589,
-                "ecroue_detenu": 861,
-                "densite_car": 1.299
+                "ecroue_detenu": 870,
+                "densite_car": 1.312
             }
         },
         {
@@ -6353,8 +6353,8 @@
                 "code_postal": 58000,
                 "latitude": 46.992449,
                 "longitude": 3.156381,
-                "ecroue_detenu": 189,
-                "densite_car": 1.615
+                "ecroue_detenu": 195,
+                "densite_car": 1.667
             }
         },
         {
@@ -6381,8 +6381,8 @@
                 "code_postal": 6000,
                 "latitude": 43.7114,
                 "longitude": 7.280113,
-                "ecroue_detenu": 701,
-                "densite_car": 1.975
+                "ecroue_detenu": 608,
+                "densite_car": 1.713
             }
         },
         {
@@ -6409,8 +6409,8 @@
                 "code_postal": 30000,
                 "latitude": 43.842652,
                 "longitude": 4.408504,
-                "ecroue_detenu": 804,
-                "densite_car": 2.358
+                "ecroue_detenu": 803,
+                "densite_car": 2.355
             }
         },
         {
@@ -6465,8 +6465,8 @@
                 "code_postal": 95520,
                 "latitude": 49.071813,
                 "longitude": 2.090928,
-                "ecroue_detenu": 1123,
-                "densite_car": 1.97
+                "ecroue_detenu": 1082,
+                "densite_car": 1.898
             }
         },
         {
@@ -6493,8 +6493,8 @@
                 "code_postal": 64000,
                 "latitude": 43.303397,
                 "longitude": -0.372779,
-                "ecroue_detenu": 297,
-                "densite_car": 1.227
+                "ecroue_detenu": 295,
+                "densite_car": 1.219
             }
         },
         {
@@ -6521,8 +6521,8 @@
                 "code_postal": 24000,
                 "latitude": 45.188639,
                 "longitude": 0.718927,
-                "ecroue_detenu": 184,
-                "densite_car": 1.859
+                "ecroue_detenu": 189,
+                "densite_car": 1.909
             }
         },
         {
@@ -6549,8 +6549,8 @@
                 "code_postal": 7000,
                 "latitude": 44.735695,
                 "longitude": 4.594759,
-                "ecroue_detenu": 78,
-                "densite_car": 1.368
+                "ecroue_detenu": 74,
+                "densite_car": 1.298
             }
         },
         {
@@ -6577,8 +6577,8 @@
                 "code_postal": 51100,
                 "latitude": 49.27038,
                 "longitude": 4.028244,
-                "ecroue_detenu": 185,
-                "densite_car": 1.209
+                "ecroue_detenu": 180,
+                "densite_car": 1.176
             }
         },
         {
@@ -6605,8 +6605,8 @@
                 "code_postal": 17300,
                 "latitude": 45.941731,
                 "longitude": -0.961569,
-                "ecroue_detenu": 122,
-                "densite_car": 2.346
+                "ecroue_detenu": 109,
+                "densite_car": 2.096
             }
         },
         {
@@ -6633,8 +6633,8 @@
                 "code_postal": 12510,
                 "latitude": 44.372308,
                 "longitude": 2.53361,
-                "ecroue_detenu": 215,
-                "densite_car": 2.172
+                "ecroue_detenu": 216,
+                "densite_car": 2.182
             }
         },
         {
@@ -6661,8 +6661,8 @@
                 "code_postal": 76100,
                 "latitude": 49.433764,
                 "longitude": 1.077615,
-                "ecroue_detenu": 669,
-                "densite_car": 1.159
+                "ecroue_detenu": 680,
+                "densite_car": 1.179
             }
         },
         {
@@ -6681,7 +6681,7 @@
                 "etablissement": "MA SAINTES",
                 "quartier": "MA/QMA",
                 "capacite_norme": "79",
-                "capacite_oper": "74",
+                "capacite_oper": "79",
                 "lc_disp": "DISP BORDEAUX",
                 "cd_etablissement": 101549,
                 "adresse_etab": "59 Bis Rue de l'Arc de Triomphe",
@@ -6689,8 +6689,8 @@
                 "code_postal": 17100,
                 "latitude": 45.745831,
                 "longitude": -0.625233,
-                "ecroue_detenu": 130,
-                "densite_car": 1.757
+                "ecroue_detenu": 132,
+                "densite_car": 1.671
             }
         },
         {
@@ -6717,8 +6717,8 @@
                 "code_postal": 57200,
                 "latitude": 49.106177,
                 "longitude": 7.058059,
-                "ecroue_detenu": 129,
-                "densite_car": 1.817
+                "ecroue_detenu": 116,
+                "densite_car": 1.634
             }
         },
         {
@@ -6745,8 +6745,8 @@
                 "code_postal": 22000,
                 "latitude": 48.508294,
                 "longitude": -2.750471,
-                "ecroue_detenu": 199,
-                "densite_car": 2.341
+                "ecroue_detenu": 196,
+                "densite_car": 2.306
             }
         },
         {
@@ -6773,8 +6773,8 @@
                 "code_postal": 35400,
                 "latitude": 48.64763,
                 "longitude": -1.993279,
-                "ecroue_detenu": 149,
-                "densite_car": 1.817
+                "ecroue_detenu": 148,
+                "densite_car": 1.805
             }
         },
         {
@@ -6801,8 +6801,8 @@
                 "code_postal": 97410,
                 "latitude": -21.341363,
                 "longitude": 55.466067,
-                "ecroue_detenu": 188,
-                "densite_car": 1.649
+                "ecroue_detenu": 198,
+                "densite_car": 1.737
             }
         },
         {
@@ -6829,8 +6829,8 @@
                 "code_postal": 67200,
                 "latitude": 48.566701,
                 "longitude": 7.730646,
-                "ecroue_detenu": 757,
-                "densite_car": 1.752
+                "ecroue_detenu": 747,
+                "densite_car": 1.729
             }
         },
         {
@@ -6857,8 +6857,8 @@
                 "code_postal": 65000,
                 "latitude": 43.234882,
                 "longitude": 0.079422,
-                "ecroue_detenu": 160,
-                "densite_car": 2.286
+                "ecroue_detenu": 159,
+                "densite_car": 2.271
             }
         },
         {
@@ -6885,8 +6885,8 @@
                 "code_postal": 37000,
                 "latitude": 47.377102,
                 "longitude": 0.690962,
-                "ecroue_detenu": 304,
-                "densite_car": 2.126
+                "ecroue_detenu": 309,
+                "densite_car": 2.161
             }
         },
         {
@@ -6913,8 +6913,8 @@
                 "code_postal": 10000,
                 "latitude": 48.300033,
                 "longitude": 4.077525,
-                "ecroue_detenu": 397,
-                "densite_car": 1.241
+                "ecroue_detenu": 385,
+                "densite_car": 1.203
             }
         },
         {
@@ -6941,8 +6941,8 @@
                 "code_postal": 19000,
                 "latitude": 45.275082,
                 "longitude": 1.76922,
-                "ecroue_detenu": 91,
-                "densite_car": 1.936
+                "ecroue_detenu": 98,
+                "densite_car": 2.085
             }
         },
         {
@@ -6969,8 +6969,8 @@
                 "code_postal": 59300,
                 "latitude": 50.355756,
                 "longitude": 3.497996,
-                "ecroue_detenu": 369,
-                "densite_car": 1.741
+                "ecroue_detenu": 359,
+                "densite_car": 1.693
             }
         },
         {
@@ -6997,8 +6997,8 @@
                 "code_postal": 56000,
                 "latitude": 47.659743,
                 "longitude": -2.763323,
-                "ecroue_detenu": 104,
-                "densite_car": 2.039
+                "ecroue_detenu": 94,
+                "densite_car": 1.843
             }
         },
         {
@@ -7025,8 +7025,8 @@
                 "code_postal": 78000,
                 "latitude": 48.800474,
                 "longitude": 2.134888,
-                "ecroue_detenu": 113,
-                "densite_car": 0.837
+                "ecroue_detenu": 116,
+                "densite_car": 0.859
             }
         },
         {
@@ -7053,8 +7053,8 @@
                 "code_postal": 70000,
                 "latitude": 47.624667,
                 "longitude": 6.155432,
-                "ecroue_detenu": 93,
-                "densite_car": 1.86
+                "ecroue_detenu": 88,
+                "densite_car": 1.76
             }
         },
         {
@@ -7081,8 +7081,8 @@
                 "code_postal": 93420,
                 "latitude": 48.967173,
                 "longitude": 2.551754,
-                "ecroue_detenu": 1194,
-                "densite_car": 2.048
+                "ecroue_detenu": 1155,
+                "densite_car": 1.981
             }
         },
         {
@@ -7109,8 +7109,8 @@
                 "code_postal": 13200,
                 "latitude": 43.709055,
                 "longitude": 4.636787,
-                "ecroue_detenu": 145,
-                "densite_car": 0.906
+                "ecroue_detenu": 149,
+                "densite_car": 0.931
             }
         },
         {
@@ -7137,8 +7137,8 @@
                 "code_postal": 68190,
                 "latitude": 47.865141,
                 "longitude": 7.351567,
-                "ecroue_detenu": 192,
-                "densite_car": 0.96
+                "ecroue_detenu": 188,
+                "densite_car": 0.94
             }
         },
         {
@@ -7165,8 +7165,8 @@
                 "code_postal": 78300,
                 "latitude": 48.928667,
                 "longitude": 2.038571,
-                "ecroue_detenu": 228,
-                "densite_car": 0.95
+                "ecroue_detenu": 232,
+                "densite_car": 0.967
             }
         },
         {
@@ -7221,8 +7221,8 @@
                 "code_postal": 36250,
                 "latitude": 46.799523,
                 "longitude": 1.631178,
-                "ecroue_detenu": 176,
-                "densite_car": 0.815
+                "ecroue_detenu": 181,
+                "densite_car": 0.838
             }
         },
         {
@@ -7249,8 +7249,8 @@
                 "code_postal": 84130,
                 "latitude": 43.968403,
                 "longitude": 4.861486,
-                "ecroue_detenu": 117,
-                "densite_car": 0.975
+                "ecroue_detenu": 119,
+                "densite_car": 0.992
             }
         },
         {
@@ -7277,8 +7277,8 @@
                 "code_postal": 34500,
                 "latitude": 43.339642,
                 "longitude": 3.17985,
-                "ecroue_detenu": 10,
-                "densite_car": 0.5
+                "ecroue_detenu": 25,
+                "densite_car": 1.25
             }
         },
         {
@@ -7305,8 +7305,8 @@
                 "code_postal": 14123,
                 "latitude": 49.144669,
                 "longitude": -0.329804,
-                "ecroue_detenu": 746,
-                "densite_car": 1.354
+                "ecroue_detenu": 761,
+                "densite_car": 1.381
             }
         },
         {
@@ -7361,8 +7361,8 @@
                 "code_postal": 72190,
                 "latitude": 48.043002,
                 "longitude": 0.2197,
-                "ecroue_detenu": 86,
-                "densite_car": 0.956
+                "ecroue_detenu": 89,
+                "densite_car": 0.989
             }
         },
         {
@@ -7389,8 +7389,8 @@
                 "code_postal": 44300,
                 "latitude": 47.264111,
                 "longitude": -1.570606,
-                "ecroue_detenu": 58,
-                "densite_car": 0.967
+                "ecroue_detenu": 60,
+                "densite_car": 1.0
             }
         },
         {
@@ -7417,8 +7417,8 @@
                 "code_postal": 95520,
                 "latitude": 49.071813,
                 "longitude": 2.090928,
-                "ecroue_detenu": 184,
-                "densite_car": 1.022
+                "ecroue_detenu": 191,
+                "densite_car": 1.061
             }
         },
         {
@@ -7445,8 +7445,8 @@
                 "code_postal": 83210,
                 "latitude": 43.158697,
                 "longitude": 6.064818,
-                "ecroue_detenu": 178,
-                "densite_car": 0.989
+                "ecroue_detenu": 176,
+                "densite_car": 0.978
             }
         },
         {
@@ -7501,8 +7501,8 @@
                 "code_postal": 10000,
                 "latitude": 48.300033,
                 "longitude": 4.077525,
-                "ecroue_detenu": 11,
-                "densite_car": 0.917
+                "ecroue_detenu": 17,
+                "densite_car": 1.417
             }
         },
         {
@@ -7529,8 +7529,8 @@
                 "code_postal": 26000,
                 "latitude": 44.921512,
                 "longitude": 4.8888490000000004,
-                "ecroue_detenu": 108,
-                "densite_car": 0.9
+                "ecroue_detenu": 117,
+                "densite_car": 0.975
             }
         },
         {
@@ -7557,8 +7557,8 @@
                 "code_postal": 34750,
                 "latitude": 43.547483,
                 "longitude": 3.830312,
-                "ecroue_detenu": 145,
-                "densite_car": 0.967
+                "ecroue_detenu": 147,
+                "densite_car": 0.98
             }
         },
         {
@@ -7585,8 +7585,8 @@
                 "code_postal": 86370,
                 "latitude": 46.382893,
                 "longitude": 0.230653,
-                "ecroue_detenu": 37,
-                "densite_car": 0.974
+                "ecroue_detenu": 38,
+                "densite_car": 1.0
             }
         },
         {
@@ -7613,8 +7613,8 @@
                 "code_postal": 93420,
                 "latitude": 48.967173,
                 "longitude": 2.551754,
-                "ecroue_detenu": 134,
-                "densite_car": 1.117
+                "ecroue_detenu": 140,
+                "densite_car": 1.167
             }
         },
         {
@@ -7641,8 +7641,8 @@
                 "code_postal": 94800,
                 "latitude": 48.803437,
                 "longitude": 2.363148,
-                "ecroue_detenu": 167,
-                "densite_car": 1.988
+                "ecroue_detenu": 157,
+                "densite_car": 1.869
             }
         },
         {
@@ -7669,8 +7669,8 @@
                 "code_postal": 13290,
                 "latitude": 43.483902,
                 "longitude": 5.397307,
-                "ecroue_detenu": 36,
-                "densite_car": 0.706
+                "ecroue_detenu": 48,
+                "densite_car": 0.941
             }
         },
         {
@@ -7697,8 +7697,8 @@
                 "code_postal": 68460,
                 "latitude": 47.756828,
                 "longitude": 7.262474,
-                "ecroue_detenu": 98,
-                "densite_car": 0.891
+                "ecroue_detenu": 99,
+                "densite_car": 0.9
             }
         },
         {
@@ -7733,7 +7733,7 @@
     "totalFeatures": 276,
     "numberMatched": 276,
     "numberReturned": 276,
-    "timeStamp": "2026-08-03T17:33:32.503Z",
+    "timeStamp": "2026-09-08T14:50:31.757Z",
     "crs": {
         "type": "name",
         "properties": {
