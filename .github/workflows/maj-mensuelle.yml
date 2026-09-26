@@ -12,7 +12,7 @@ name: Mise à jour mensuelle
 
 on:
   schedule:
-    - cron: "0 5 1-5 * *"   # du 1er au 5 du mois, 5 h UTC (6 h ou 7 h à Paris)
+    - cron: "0 16 1-5 * *"  # du 1er au 5 du mois, 16 h UTC (18 h à Paris en été, 17 h en hiver)
   workflow_dispatch:         # lancement manuel depuis l'onglet Actions
     inputs:
       mois:
