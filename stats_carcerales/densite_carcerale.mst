@@ -12,7 +12,7 @@
         </div>
         <div class="numberBlock" id="blockDens_{{feature_ol_uid}}" style="color:white;">  
                 <span class="numberTitle">Densité </br>carcérale</span>
-                <span class="numberValue"><span id="densiteValue_{{feature_ol_uid}}">#</span>%</span>   
+                <span class="numberValue"><span id="densiteValue_{{feature_ol_uid}}">#</span></span>   
         </div>  
         <div class="small"><i>Mise à jour : 08/09/2026</i></div>      
 	</li>
@@ -61,7 +61,7 @@
 </style>
 <script>
     // Récupération brute (peut être null, "NC", "", etc.)
-    const rawDensite = {{#densite_car}}{{densite_car}}{{/densite_car}}{{^densite_car}}null{{/densite_car}};
+    const rawDensite = {{#densite_car}}"{{densite_car}}"{{/densite_car}}{{^densite_car}}null{{/densite_car}};
 
     const densiteValueEl = document.getElementById('densiteValue_{{feature_ol_uid}}');
     const blockDensite = document.getElementById('blockDens_{{feature_ol_uid}}');
@@ -89,11 +89,12 @@
     if (rawDensite === null || Number.isNaN(densiteNum)) {
         // Cas NC / invalide
         densiteValueEl.innerHTML = 'NC';
+        densiteValueEl.title = 'Donnée non communiquée par le ministère';
         blockDensite.style.backgroundColor = getColor(null);
     } else {
         // Cas valide
         const percentValue = (densiteNum * 100).toFixed(2);
-        densiteValueEl.innerHTML = percentValue;
+        densiteValueEl.innerHTML = percentValue + '%';
         blockDensite.style.backgroundColor = getColor(densiteNum);
     }
 </script>

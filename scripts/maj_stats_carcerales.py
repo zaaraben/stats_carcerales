@@ -107,9 +107,14 @@ def convert_to_int(value):
 
 
 def pourcentage_conversion(val):
-    """'99,0 %' -> 0.990. None si non convertible ('--', 'NC', 'Inf'…)."""
+    """'99,0 %' -> 0.990.
+    'NC' (donnée non communiquée par le ministère) est conservé tel quel pour
+    être affiché sur la carte. None pour les autres valeurs non convertibles
+    ('--', 'Inf'…)."""
     if not isinstance(val, str):
         return val
+    if val.strip().upper() == "NC":
+        return "NC"
     val = val.strip().replace(",", ".")
     if val.endswith("%"):
         try:
