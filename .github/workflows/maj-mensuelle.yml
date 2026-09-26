@@ -1,0 +1,136 @@
+# Mise à jour mensuelle de la carte « Densité carcérale »
+#
+# Le ministère de la Justice publie le dernier jour du mois la situation au
+# 1er de ce mois. Ce workflow tourne du 1er au 5 de chaque mois : il récupère
+# le fichier, met à jour les données et les enregistre dans le dépôt.
+# Une fois le mois traité, les passages suivants ne font rien.
+#
+# En cas de problème, le workflow échoue et GitHub envoie un e-mail.
+# Un établissement absent du référentiel ouvre une issue.
+
+name: Mise à jour mensuelle
+
+on:
+  schedule:
+    - cron: "0 16 1-5 * *"  # du 1er au 5 du mois, 16 h UTC (18 h à Paris en été, 17 h en hiver)
+  workflow_dispatch:         # lancement manuel depuis l'onglet Actions
+    inputs:
+      mois:
+        description: "Mois des données (AAAA-MM). Vide = mois précédent"
+        required: false
+        default: ""
+      force:
+        description: "Retraiter même si le mois est déjà publié"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # enregistrer les nouvelles données
+  issues: write     # signaler les établissements absents du référentiel
+
+concurrency:
+  group: maj-mensuelle
+  cancel-in-progress: false
+
+jobs:
+  mise-a-jour:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Europe/Paris
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Installer les dépendances
+        run: pip install -r scripts/requirements.txt
+
+      - name: Lancer le script
+        id: script
+        env:
+          MOIS: ${{ inputs.mois }}
+          FORCE: ${{ inputs.force }}
+          EVENEMENT: ${{ github.event_name }}
+        run: |
+          ARGS=()
+          if [ -n "$MOIS" ]; then ARGS+=(--mois "$MOIS"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+
+          set +e
+          python scripts/maj_stats_carcerales.py "${ARGS[@]}"
+          CODE=$?
+          set -e
+          echo "code=$CODE" >> "$GITHUB_OUTPUT"
+
+          JOUR=$(date +%-d)
+          case $CODE in
+            0) ;;
+            3)
+              # Pas encore publié : normal les premiers jours, anormal le 5
+              if [ "$EVENEMENT" = "schedule" ] && [ "$JOUR" -lt 5 ]; then
+                echo "::notice::Fichier pas encore publié, nouvel essai demain."
+              else
+                echo "::error::Le fichier du ministère n'est toujours pas publié."
+                exit 1
+              fi
+              ;;
+            *)
+              echo "::error::Le script a échoué (code $CODE). Voir le journal ci-dessus."
+              exit 1
+              ;;
+          esac
+
+      - name: Enregistrer les nouvelles données
+        if: steps.script.outputs.code == '0'
+        run: |
+          if [ -z "$(git status --porcelain stats_carcerales.xml stats_carcerales/)" ]; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          MOIS=$(python -c "import json;print(json.load(open('stats_carcerales/data/stats_carcerales.meta.json'))['mois_donnees'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats_carcerales.xml stats_carcerales/
+          git commit -m "Données du ministère de la Justice : $MOIS"
+          git push
+
+      - name: Signaler les établissements absents du référentiel
+        if: steps.script.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'EOF' > absents.txt
+          import json
+          meta = json.load(open("stats_carcerales/data/stats_carcerales.meta.json"))
+          for etab, quartier in meta.get("absents_referentiel", []):
+              print(f"- {etab} ({quartier})")
+          EOF
+          if [ ! -s absents.txt ]; then
+            echo "Tous les établissements sont dans le référentiel."
+            exit 0
+          fi
+          MOIS=$(python -c "import json;print(json.load(open('stats_carcerales/data/stats_carcerales.meta.json'))['mois_donnees'])")
+          TITRE="Établissements absents du référentiel ($MOIS)"
+          if gh issue list --state open --search "\"$TITRE\" in:title" --json number --jq 'length' | grep -qv '^0$'; then
+            echo "Issue déjà ouverte pour $MOIS."
+            exit 0
+          fi
+          {
+            echo "Ces établissements figurent dans les données du ministère de $MOIS,"
+            echo "mais pas dans \`referentiel/referentiel_etablissements.xlsx\`."
+            echo "Ils n'apparaissent donc pas sur la carte."
+            echo
+            cat absents.txt
+            echo
+            echo "Pour corriger : les ajouter au référentiel (coordonnées en EPSG:3857),"
+            echo "puis relancer le workflow avec l'option « force » cochée."
+          } > corps.md
+          gh issue create --title "$TITRE" --body-file corps.md

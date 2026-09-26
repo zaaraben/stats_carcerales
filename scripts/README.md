@@ -85,3 +85,14 @@ le script avec `--force`.
 | 1 | Erreur (structure du fichier, téléchargement…) |
 | 2 | Établissements absents du référentiel (avec `--strict`) |
 | 3 | Fichier du mois pas encore publié |
+
+## Automatisation
+
+Le workflow `.github/workflows/maj-mensuelle.yml` lance ce script du 1er au
+5 de chaque mois et enregistre le résultat dans le dépôt. Il peut aussi être
+lancé à la main depuis l'onglet **Actions** du dépôt (« Run workflow »),
+avec un mois précis et l'option « force ».
+
+- Fichier pas encore publié : nouvel essai le lendemain ; échec le 5.
+- Erreur de structure : le workflow échoue et GitHub envoie un e-mail.
+- Établissement absent du référentiel : une issue est ouverte.
