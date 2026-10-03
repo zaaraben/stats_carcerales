@@ -29,6 +29,7 @@ Codes de sortie :
 from __future__ import annotations
 
 import argparse
+import http.client
 import ast
 import json
 import math
@@ -197,10 +198,12 @@ def lire_url(requete, essais: int = 3, pause: int = 30) -> bytes:
             if e.code == 404 or essai == essais:
                 raise
             print(f"  -> erreur HTTP {e.code}, nouvel essai dans {pause} s")
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (urllib.error.URLError, http.client.HTTPException, OSError) as e:
+            # coupure réseau, délai dépassé, téléchargement interrompu
+            # (IncompleteRead)…
             if essai == essais:
                 raise
-            print(f"  -> erreur réseau ({e}), nouvel essai dans {pause} s")
+            print(f"  -> erreur réseau ({type(e).__name__}), nouvel essai dans {pause} s")
         time.sleep(pause)
     raise RuntimeError("inaccessible")
 
@@ -491,8 +494,8 @@ def main(argv=None) -> int:
     except ErreurStructure as e:
         print(f"ERREUR : {e}")
         return 1
-    except (urllib.error.URLError, TimeoutError) as e:
-        print(f"ERREUR : téléchargement impossible ({e}).")
+    except (urllib.error.URLError, http.client.HTTPException, OSError) as e:
+        print(f"ERREUR : téléchargement impossible ({type(e).__name__} : {e}).")
         return 1
     except Exception as e:  # fichier tronqué ou illisible
         print(f"ERREUR : fichier illisible ({type(e).__name__} : {e}).")
