@@ -65,8 +65,8 @@ jobs:
           if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
 
           set +e
-          python scripts/maj_stats_carcerales.py "${ARGS[@]}"
-          CODE=$?
+          python scripts/maj_stats_carcerales.py "${ARGS[@]}" 2>&1 | tee sortie.txt
+          CODE=${PIPESTATUS[0]}
           set -e
           echo "code=$CODE" >> "$GITHUB_OUTPUT"
 
@@ -83,7 +83,9 @@ jobs:
               fi
               ;;
             *)
-              echo "::error::Le script a échoué (code $CODE). Voir le journal ci-dessus."
+              # Le message d'erreur du script, visible dans le résumé et l'e-mail
+              MESSAGE=$(grep -E "ERREUR|Error|Traceback" sortie.txt | tail -n 3 | tr '\n' ' ')
+              echo "::error::Le script a échoué (code $CODE) : ${MESSAGE:-voir le journal}"
               exit 1
               ;;
           esac

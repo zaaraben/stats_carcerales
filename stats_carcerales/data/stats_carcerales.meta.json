@@ -1,11 +1,11 @@
 {
-  "mois_donnees": "2026-08",
-  "source": "https://www.justice.gouv.fr/sites/default/files/2026-08/statistique_etablissements_personnes_ecrouees_01082026.xlsx",
-  "date_traitement": "2026-09-26",
-  "nb_etablissements_carte": 276,
+  "mois_donnees": "2026-09",
+  "source": "https://www.justice.gouv.fr/sites/default/files/2026-10/statistique_etablissements_personnes_ecrouees_01092026.xlsx",
+  "date_traitement": "2026-10-03",
+  "nb_etablissements_carte": 277,
   "nb_referentiel": 284,
-  "nb_nouvelles": 278,
-  "nb_communes": 276,
+  "nb_nouvelles": 279,
+  "nb_communes": 277,
   "absents_referentiel": [
     [
       "CP BAIE MAHAULT",
@@ -24,10 +24,6 @@
     [
       "CP CAEN",
       "CSL/QSL"
-    ],
-    [
-      "CP FLEURY MEROGIS",
-      "CD/QCD"
     ],
     [
       "CP FRESNES",

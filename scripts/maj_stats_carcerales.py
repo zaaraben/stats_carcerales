@@ -35,6 +35,7 @@ import math
 import re
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.request
 from datetime import date, datetime, timezone
@@ -185,6 +186,25 @@ def urls_candidates(annee: int, mois: int) -> list[str]:
     ]
 
 
+def lire_url(requete, essais: int = 3, pause: int = 30) -> bytes:
+    """Lit une URL en réessayant en cas d'erreur passagère (site en cours de
+    mise à jour, coupure réseau). Un 404 est renvoyé tout de suite."""
+    for essai in range(1, essais + 1):
+        try:
+            with urllib.request.urlopen(requete, timeout=60) as reponse:
+                return reponse.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404 or essai == essais:
+                raise
+            print(f"  -> erreur HTTP {e.code}, nouvel essai dans {pause} s")
+        except (urllib.error.URLError, TimeoutError) as e:
+            if essai == essais:
+                raise
+            print(f"  -> erreur réseau ({e}), nouvel essai dans {pause} s")
+        time.sleep(pause)
+    raise RuntimeError("inaccessible")
+
+
 def telecharger(annee: int, mois: int, dossier: Path) -> tuple[Path, str]:
     """Télécharge le fichier du mois. Renvoie (chemin local, url)."""
     for url in urls_candidates(annee, mois):
@@ -193,8 +213,7 @@ def telecharger(annee: int, mois: int, dossier: Path) -> tuple[Path, str]:
             url, headers={"User-Agent": "mesdonneeslocales.fr (mise a jour mensuelle)"}
         )
         try:
-            with urllib.request.urlopen(requete, timeout=60) as reponse:
-                contenu = reponse.read()
+            contenu = lire_url(requete)
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 print("  -> absent (404)")
@@ -474,6 +493,9 @@ def main(argv=None) -> int:
         return 1
     except (urllib.error.URLError, TimeoutError) as e:
         print(f"ERREUR : téléchargement impossible ({e}).")
+        return 1
+    except Exception as e:  # fichier tronqué ou illisible
+        print(f"ERREUR : fichier illisible ({type(e).__name__} : {e}).")
         return 1
 
     print(f"Lignes dans le fichier     : {diag['nb_nouvelles']}")
